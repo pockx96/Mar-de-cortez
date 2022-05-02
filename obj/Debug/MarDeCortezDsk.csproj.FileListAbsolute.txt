@@ -1,0 +1,16 @@
+C:\Users\abdie\source\repos\MarDeCortezDsk\bin\Debug\MarDeCortezDsk.exe.config
+C:\Users\abdie\source\repos\MarDeCortezDsk\bin\Debug\MarDeCortezDsk.exe
+C:\Users\abdie\source\repos\MarDeCortezDsk\bin\Debug\MarDeCortezDsk.pdb
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.csproj.AssemblyReference.cache
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.Properties.Resources.resources
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.csproj.GenerateResource.cache
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.csproj.CoreCompileInputs.cache
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.exe
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.pdb
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.Login.resources
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.MenuEleccion.resources
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.MenuFicha.resources
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.MenuCotroller.resources
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.camaronlist.resources
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.TesterScreen.resources
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.peceslist.resources
