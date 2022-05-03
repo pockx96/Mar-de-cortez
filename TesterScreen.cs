@@ -19,7 +19,7 @@ namespace MarDeCortezDsk
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form teste1 = new MenuEleccion();
+            Form teste1 = new MenuElecc();
             teste1.Show();
             
         }

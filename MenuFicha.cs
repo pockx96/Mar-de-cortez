@@ -32,7 +32,7 @@ namespace MarDeCortezDsk
 
         private void btt_enviar_Click(object sender, EventArgs e)
         {
-            Form bettascreen = new MenuEleccion();
+            Form bettascreen = new MenuElecc();
             this.Hide();
             bettascreen.Show();
         }
@@ -47,6 +47,13 @@ namespace MarDeCortezDsk
         {
             Form bettafichafish = new peceslist();
             bettafichafish.Show();
+        }
+
+        private void bttn_cancel_Click(object sender, EventArgs e)
+        {
+            Form bttareturnd = new MenuElecc();
+            bttareturnd.Show();
+            this.Close();
         }
     }
 }

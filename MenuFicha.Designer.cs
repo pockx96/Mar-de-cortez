@@ -29,8 +29,9 @@ namespace MarDeCortezDsk
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lb_data = new System.Windows.Forms.Label();
             this.lb_time = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -43,18 +44,17 @@ namespace MarDeCortezDsk
             this.column_Producto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.column_tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.column_cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button4 = new System.Windows.Forms.Button();
+            this.bttn_cancel = new System.Windows.Forms.Button();
             this.btt_enviar = new System.Windows.Forms.Button();
             this.dtTmpct_datatime = new System.Windows.Forms.DateTimePicker();
             this.bttn_other = new System.Windows.Forms.Button();
             this.bttn_fish = new System.Windows.Forms.Button();
             this.btt_Shrim = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panel1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtGvw_Ficha_Temp)).BeginInit();
-            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -68,6 +68,18 @@ namespace MarDeCortezDsk
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(394, 102);
             this.panel1.TabIndex = 0;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.Color.Gainsboro;
+            this.groupBox1.Controls.Add(this.lb_data);
+            this.groupBox1.Controls.Add(this.lb_time);
+            this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.groupBox1.Location = new System.Drawing.Point(178, 7);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(168, 86);
+            this.groupBox1.TabIndex = 8;
+            this.groupBox1.TabStop = false;
             // 
             // lb_data
             // 
@@ -185,12 +197,12 @@ namespace MarDeCortezDsk
             // 
             // column_Producto
             // 
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.Padding = new System.Windows.Forms.Padding(20);
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.column_Producto.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(20);
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.column_Producto.DefaultCellStyle = dataGridViewCellStyle1;
             this.column_Producto.HeaderText = "Producto";
             this.column_Producto.MinimumWidth = 6;
             this.column_Producto.Name = "column_Producto";
@@ -212,18 +224,19 @@ namespace MarDeCortezDsk
             this.column_cantidad.Name = "column_cantidad";
             this.column_cantidad.Width = 203;
             // 
-            // button4
+            // bttn_cancel
             // 
-            this.button4.BackColor = System.Drawing.Color.Gainsboro;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(603, 495);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(151, 49);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "Cancelar";
-            this.button4.UseVisualStyleBackColor = false;
+            this.bttn_cancel.BackColor = System.Drawing.Color.Gainsboro;
+            this.bttn_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.bttn_cancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttn_cancel.Location = new System.Drawing.Point(603, 495);
+            this.bttn_cancel.Margin = new System.Windows.Forms.Padding(2);
+            this.bttn_cancel.Name = "bttn_cancel";
+            this.bttn_cancel.Size = new System.Drawing.Size(151, 49);
+            this.bttn_cancel.TabIndex = 6;
+            this.bttn_cancel.Text = "Cancelar";
+            this.bttn_cancel.UseVisualStyleBackColor = false;
+            this.bttn_cancel.Click += new System.EventHandler(this.bttn_cancel_Click);
             // 
             // btt_enviar
             // 
@@ -291,18 +304,6 @@ namespace MarDeCortezDsk
             this.btt_Shrim.UseVisualStyleBackColor = false;
             this.btt_Shrim.Click += new System.EventHandler(this.btt_Shrim_Click);
             // 
-            // groupBox1
-            // 
-            this.groupBox1.BackColor = System.Drawing.Color.Gainsboro;
-            this.groupBox1.Controls.Add(this.lb_data);
-            this.groupBox1.Controls.Add(this.lb_time);
-            this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.groupBox1.Location = new System.Drawing.Point(178, 7);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(168, 86);
-            this.groupBox1.TabIndex = 8;
-            this.groupBox1.TabStop = false;
-            // 
             // MenuFicha
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -311,7 +312,7 @@ namespace MarDeCortezDsk
             this.ClientSize = new System.Drawing.Size(941, 553);
             this.Controls.Add(this.btt_enviar);
             this.Controls.Add(this.dtTmpct_datatime);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.bttn_cancel);
             this.Controls.Add(this.dtGvw_Ficha_Temp);
             this.Controls.Add(this.bttn_other);
             this.Controls.Add(this.bttn_fish);
@@ -324,12 +325,12 @@ namespace MarDeCortezDsk
             this.Text = "MenuFicha";
             this.Load += new System.EventHandler(this.MenuFicha_Load);
             this.panel1.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtGvw_Ficha_Temp)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -342,7 +343,7 @@ namespace MarDeCortezDsk
         private System.Windows.Forms.Button bttn_fish;
         private System.Windows.Forms.Button bttn_other;
         private System.Windows.Forms.DataGridView dtGvw_Ficha_Temp;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button bttn_cancel;
         private System.Windows.Forms.Button btt_enviar;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DateTimePicker dtTmpct_datatime;

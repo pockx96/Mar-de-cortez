@@ -14,3 +14,4 @@ C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.MenuCotrolle
 C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.camaronlist.resources
 C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.TesterScreen.resources
 C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.peceslist.resources
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.MenuElecc.resources

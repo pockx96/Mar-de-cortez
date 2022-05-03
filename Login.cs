@@ -35,7 +35,7 @@ namespace MarDeCortezDsk
         {
             if (Usuarios["useremp"] == txtBox_user.Text && Usuarios["passwordemp"] == txtBox_psswrd.Text)
             {
-                Form bttaeleemp = new MenuEleccion();
+                Form bttaeleemp = new MenuElecc();
                 this.Hide();
                 bttaeleemp.Show();
                 lklb_createacoount.Visible = true;
