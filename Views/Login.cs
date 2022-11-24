@@ -110,15 +110,15 @@ namespace MarDeCortezDsk
                     {
                         ValidatorPass = usuario.password;
                         ValidatorRol = usuario.tipo_usuario;
-                        if (ValidatorPass == Userpass && ValidatorRol == "user")
+                        if (ValidatorPass == Userpass && ValidatorRol == "Usuario\t")
                         {
                             DialogResult result = RJMessageBox.Show("Bienvenido " + usuario.nombre_usuario + " !.", "Aviso!");
-                            MenuUsuario menu = new MenuUsuario(usuario.id_usuario);
+                            MenuUser menu = new MenuUser(usuario.id_usuario);
                             menu.Show();
                             this.Hide();
 
                         }
-                        else if (ValidatorPass == Userpass && ValidatorRol == "admin")
+                        else if (ValidatorPass == Userpass && ValidatorRol == "administrador")
                         {
                             DialogResult result = RJMessageBox.Show("Bienvenido " + usuario.nombre_usuario + " !.", "Aviso!");
                             MenuAdmin menu = new MenuAdmin(usuario.id_usuario);

@@ -72,7 +72,7 @@ namespace MarDeCortezDsk.Controllers
                         Usuarios.id_usuario = reader.GetString(0).Replace(" ", "");
                         Usuarios.nombre_usuario = reader.GetString(1);
                         Usuarios.password = encrypt.DecryptWord(reader.GetString(2).Replace(" ", ""));
-                        Usuarios.tipo_usuario = reader.GetString(3).Replace(" ", "");
+                        Usuarios.tipo_usuario = reader.GetString(3);
 
                     }
                     reader.Close();
