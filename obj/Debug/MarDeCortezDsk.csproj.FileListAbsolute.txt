@@ -8,10 +8,629 @@ C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.csproj.CoreC
 C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.exe
 C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.pdb
 C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.Login.resources
-C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.MenuEleccion.resources
 C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.MenuFicha.resources
 C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.MenuCotroller.resources
 C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.camaronlist.resources
 C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.TesterScreen.resources
 C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.peceslist.resources
 C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.MenuElecc.resources
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.inventarios.resources
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.otroslist.resources
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.ListProvedores.resources
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.Fichas.resources
+C:\Users\kriz_\Downloads\MarDeCortezDsk\bin\Debug\MarDeCortezDsk.exe.config
+C:\Users\kriz_\Downloads\MarDeCortezDsk\bin\Debug\MarDeCortezDsk.exe
+C:\Users\kriz_\Downloads\MarDeCortezDsk\bin\Debug\MarDeCortezDsk.pdb
+C:\Users\kriz_\Downloads\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.csproj.AssemblyReference.cache
+C:\Users\kriz_\Downloads\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.csproj.SuggestedBindingRedirects.cache
+C:\Users\kriz_\Downloads\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.camaronlist.resources
+C:\Users\kriz_\Downloads\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.Fichas.resources
+C:\Users\kriz_\Downloads\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.inventarios.resources
+C:\Users\kriz_\Downloads\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.ListProvedores.resources
+C:\Users\kriz_\Downloads\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.Login.resources
+C:\Users\kriz_\Downloads\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.MenuCotroller.resources
+C:\Users\kriz_\Downloads\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.MenuElecc.resources
+C:\Users\kriz_\Downloads\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.MenuFicha.resources
+C:\Users\kriz_\Downloads\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.otroslist.resources
+C:\Users\kriz_\Downloads\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.peceslist.resources
+C:\Users\kriz_\Downloads\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.Properties.Resources.resources
+C:\Users\kriz_\Downloads\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.TesterScreen.resources
+C:\Users\kriz_\Downloads\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.csproj.GenerateResource.cache
+C:\Users\kriz_\Downloads\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.csproj.CoreCompileInputs.cache
+C:\Users\kriz_\Downloads\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.exe
+C:\Users\kriz_\Downloads\MarDeCortezDsk\obj\Debug\MarDeCortezDsk.pdb
+C:\Users\kriz_\Downloads\Vercion final\bin\Debug\MarDeCortezDsk.exe.config
+C:\Users\kriz_\Downloads\Vercion final\bin\Debug\MarDeCortezDsk.exe
+C:\Users\kriz_\Downloads\Vercion final\bin\Debug\MarDeCortezDsk.pdb
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.csproj.AssemblyReference.cache
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.csproj.SuggestedBindingRedirects.cache
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.camaronlist.resources
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.Fichas.resources
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.inventarios.resources
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.ListProvedores.resources
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.Login.resources
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.MenuCotroller.resources
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.MenuElecc.resources
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.MenuFicha.resources
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.otroslist.resources
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.peceslist.resources
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.Properties.Resources.resources
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.TesterScreen.resources
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.csproj.GenerateResource.cache
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.csproj.CoreCompileInputs.cache
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.exe
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.pdb
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\CustomControls.RJControls.RJTextBox.resources
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.UserControlls.UserControl1.resources
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.UserControlls.MedidasCamaronCosta.resources
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.UserControlls.MedidasCamaronCultivo.resources
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.UserControlls.OtrosFicha.resources
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.UserControlls.PescadoFicha.resources
+C:\Users\kriz_\Downloads\Vercion final\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.csproj.CopyComplete
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.UserControlls.FichaCamaron.resources
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.UserControlls.CamaronFicha.PresentacionCamaron.resources
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\datagridview.UserControl1.resources
+C:\Users\kriz_\Downloads\Vercion final\obj\Debug\MarDeCortezDsk.UserControlls.CircularImagen.resources
+C:\Users\kriz_\Documents\MDC\Vercion final\bin\Debug\MarDeCortezDsk.exe.config
+C:\Users\kriz_\Documents\MDC\Vercion final\bin\Debug\MarDeCortezDsk.exe
+C:\Users\kriz_\Documents\MDC\Vercion final\bin\Debug\MarDeCortezDsk.pdb
+C:\Users\kriz_\Documents\MDC\Vercion final\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.csproj.AssemblyReference.cache
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.csproj.SuggestedBindingRedirects.cache
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.camaronlist.resources
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.Fichas.resources
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.inventarios.resources
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.ListProvedores.resources
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.Login.resources
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.MenuCotroller.resources
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.MenuElecc.resources
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.MenuFicha.resources
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.otroslist.resources
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.peceslist.resources
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.Properties.Resources.resources
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.TesterScreen.resources
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.UserControlls.FichaCamaron.resources
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.UserControlls.MedidasCamaronCosta.resources
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.UserControlls.MedidasCamaronCultivo.resources
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.UserControlls.CamaronFicha.PresentacionCamaron.resources
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.UserControlls.CircularImagen.resources
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.UserControlls.OtrosFicha.resources
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.UserControlls.PescadoFicha.resources
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\CustomControls.RJControls.RJTextBox.resources
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\datagridview.UserControl1.resources
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.UserControlls.UserControl1.resources
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.csproj.GenerateResource.cache
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.csproj.CoreCompileInputs.cache
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.csproj.CopyComplete
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.exe
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.pdb
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.Views.FichaConfirmacion.resources
+C:\Users\kriz_\Documents\MDC\Vercion final\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.FichaCamaronConfirmacion.resources
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.exe.config
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.exe
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.pdb
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.AssemblyReference.cache
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.SuggestedBindingRedirects.cache
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.CamaronDatagrid.resources
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.OtrosDatagrid.resources
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.PescadoDatagrid.resources
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.FichaConfirmacion.resources
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Login.resources
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.MenuFicha.resources
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Properties.Resources.resources
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichaCamaron.resources
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.CircularImagen.resources
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.OtrosFicha.resources
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.PescadoFicha.resources
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\CustomControls.RJControls.RJTextBox.resources
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\datagridview.UserControl1.resources
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.UserControl1.resources
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.GenerateResource.cache
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.CoreCompileInputs.cache
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.CopyComplete
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.exe
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.pdb
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.Pruebas_de_metodos.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.exe.config
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.exe
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.pdb
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.AssemblyReference.cache
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.SuggestedBindingRedirects.cache
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.camaronlist.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Fichas.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.inventarios.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.ListProvedores.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.CamaronDatagrid.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.OtrosDatagrid.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.PescadoDatagrid.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.FichaConfirmacion.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Login.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.MenuCotroller.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.MenuElecc.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.MenuAdmin.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.MenuFicha.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.otroslist.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.peceslist.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Properties.Resources.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.TesterScreen.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichaCamaron.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.CircularImagen.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.OtrosFicha.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.PescadoFicha.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\CustomControls.RJControls.RJTextBox.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\datagridview.UserControl1.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.UserControl1.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.Pruebas_de_metodos.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.GenerateResource.cache
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.CoreCompileInputs.cache
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.CopyComplete
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.exe
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.pdb
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.FichasEntrada.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.Ajustes.resources
+C:\Users\kriz_\Documents\MDC\backup\Semana 2\ficha de confirmacion funcional\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.Inventarios.resources
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.Ajustes.resources
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.Inventarios.resources
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.MenuAdmin.resources
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.FichasEntradaAdmin.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.exe.config
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.exe
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.pdb
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.AssemblyReference.cache
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.SuggestedBindingRedirects.cache
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.Ajustes.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.FichasEntradaAdmin.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.Inventarios.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.CamaronDatagrid.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.OtrosDatagrid.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.PescadoDatagrid.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.FichaConfirmacion.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Login.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.MenuAdmin.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.MenuFicha.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Properties.Resources.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichaCamaron.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.CircularImagen.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.OtrosFicha.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.PescadoFicha.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\CustomControls.RJControls.RJTextBox.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\datagridview.UserControl1.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.UserControl1.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.Pruebas_de_metodos.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.GenerateResource.cache
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.CoreCompileInputs.cache
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.CopyComplete
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.exe
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.pdb
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.ProveedorShowDialog.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.ProvedorShowDialog.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.CalculadoraFichas.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\bin\Debug\itextsharp.dll
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\bin\Debug\itextsharp.xml
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\bin\Debug\itextsharp.dll
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\bin\Debug\itextsharp.xml
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.CalculadoraFichas.resources
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.ProveedorShowDialog.resources
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.ProvedorShowDialog.resources
+C:\Users\kriz_\Documents\MDC\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.PruebaDelegados.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.AssemblyReference.cache
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.SuggestedBindingRedirects.cache
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.Ajustes.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.CalculadoraFichas.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.FichasEntradaAdmin.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.Inventarios.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.NuevoProveedor.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.NuevoUsuario.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.CamaronDatagrid.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.OtrosDatagrid.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.PescadoDatagrid.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.ProveedorShowDialog.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.PruebaDelegados.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.FichaConfirmacion.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\CustomMessageBox.Private.FormMessageBox.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Login.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.MenuAdmin.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.MenuFicha.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Properties.Resources.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichaCamaron.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.CircularImagen.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.OtrosFicha.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.PescadoFicha.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\CustomControls.RJControls.RJTextBox.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\datagridview.UserControl1.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.UserControl1.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.ProvedorShowDialog.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.Pruebas_de_metodos.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.GenerateResource.cache
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.CoreCompileInputs.cache
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.exe
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.pdb
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.exe.config
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.exe
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.pdb
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\bin\Debug\itextsharp.dll
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\bin\Debug\itextsharp.xml
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.CopyComplete
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.Actulizacion_de_productos.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.MenuUsuario.resources
+C:\Users\kriz_\Documents\MDC\pruebas\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.ProveeedorSelection.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.exe.config
+C:\Users\ricar\Videos\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.exe
+C:\Users\ricar\Videos\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.pdb
+C:\Users\ricar\Videos\Mar de cortez FormApp\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\ricar\Videos\Mar de cortez FormApp\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\ricar\Videos\Mar de cortez FormApp\bin\Debug\itextsharp.dll
+C:\Users\ricar\Videos\Mar de cortez FormApp\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\ricar\Videos\Mar de cortez FormApp\bin\Debug\itextsharp.xml
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.AssemblyReference.cache
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.SuggestedBindingRedirects.cache
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.Ajustes.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.CalculadoraFichas.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.FichasEntradaAdmin.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.Inventarios.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.NuevoProveedor.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.NuevoUsuario.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.CamaronDatagrid.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.OtrosDatagrid.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.PescadoDatagrid.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.ProveedorShowDialog.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.PruebaDelegados.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.Actulizacion_de_productos.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.FichaConfirmacion.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\CustomMessageBox.Private.FormMessageBox.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Login.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.MenuAdmin.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.MenuFicha.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Properties.Resources.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichaCamaron.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.CircularImagen.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.OtrosFicha.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.PescadoFicha.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\CustomControls.RJControls.RJTextBox.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\datagridview.UserControl1.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.UserControl1.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.MenuUsuario.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.ProvedorShowDialog.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.ProveeedorSelection.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.Pruebas_de_metodos.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.GenerateResource.cache
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.CoreCompileInputs.cache
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.CopyComplete
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.exe
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.pdb
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.SeleccionarEditar.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.EditarUsuario.resources
+C:\Users\ricar\Videos\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.EditarProveedor.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.EditarProveedor.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.NuevoProveedor.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.NuevoUsuario.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.SeleccionarEditar.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.PruebaDelegados.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.Actulizacion_de_productos.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\CustomMessageBox.Private.FormMessageBox.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.MenuUsuario.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.ProveeedorSelection.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.BarraUsuario.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.Calendario.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.Relog.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.ListaFolios.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.ListaUsuarios.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.UserConfig.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.botonesEdicion.resources
+C:\Users\kriz_\Downloads\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.labelCrear.resources
+D:\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.exe.config
+D:\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.exe
+D:\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.pdb
+D:\Mar de cortez FormApp\bin\Debug\BouncyCastle.Crypto.dll
+D:\Mar de cortez FormApp\bin\Debug\FontAwesome.Sharp.dll
+D:\Mar de cortez FormApp\bin\Debug\itextsharp.dll
+D:\Mar de cortez FormApp\bin\Debug\itextsharp.xmlworker.dll
+D:\Mar de cortez FormApp\bin\Debug\itextsharp.xml
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.AssemblyReference.cache
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.SuggestedBindingRedirects.cache
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.BarraUsuario.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.botonesEdicion.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.Calendario.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.Ajustes.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.CalculadoraFichas.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.EditarProveedor.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.ListaUsuarios.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.FichasEntradaAdmin.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.Inventarios.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.NuevoProveedor.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.NuevoUsuario.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.SeleccionarEditar.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.UserConfig.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.CamaronDatagrid.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.OtrosDatagrid.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.PescadoDatagrid.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.ListaFolios.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.labelCrear.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.ProveedorShowDialog.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.PruebaDelegados.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.Relog.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.Actulizacion_de_productos.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.FichaConfirmacion.resources
+D:\Mar de cortez FormApp\obj\Debug\CustomMessageBox.Private.FormMessageBox.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Login.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.MenuAdmin.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.MenuFicha.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Properties.Resources.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichaCamaron.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.CircularImagen.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.OtrosFicha.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.PescadoFicha.resources
+D:\Mar de cortez FormApp\obj\Debug\CustomControls.RJControls.RJTextBox.resources
+D:\Mar de cortez FormApp\obj\Debug\datagridview.UserControl1.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.UserControl1.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.MenuUsuario.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.ProvedorShowDialog.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.ProveeedorSelection.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.Pruebas_de_metodos.resources
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.GenerateResource.cache
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.CoreCompileInputs.cache
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.CopyComplete
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.exe
+D:\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.pdb
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.exe.config
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.exe.manifest
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.application
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.exe
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.pdb
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\itextsharp.dll
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\itextsharp.xml
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.BarraUsuario.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.botonesEdicion.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.Calendario.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.Ajustes.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.CalculadoraFichas.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.ListaUsuarios.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.FichasEntradaAdmin.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.Inventarios.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.NuevoProveedor.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.NuevoUsuario.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.UserConfig.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.CamaronDatagrid.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.OtrosDatagrid.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.PescadoDatagrid.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.ListaFolios.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.labelCrear.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.ProveedorShowDialog.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.PruebaDelegados.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.Relog.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.Actulizacion_de_productos.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.FichaConfirmacion.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\CustomMessageBox.Private.FormMessageBox.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Login.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.MenuAdmin.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.MenuFicha.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Properties.Resources.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichaCamaron.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.CircularImagen.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.OtrosFicha.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.PescadoFicha.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\CustomControls.RJControls.RJTextBox.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\datagridview.UserControl1.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.UserControl1.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.MenuUsuario.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.ProvedorShowDialog.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.ProveeedorSelection.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.Pruebas_de_metodos.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.GenerateResource.cache
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.exe.manifest
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.application
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.CopyComplete
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.exe
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.pdb
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.AssemblyReference.cache
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.SuggestedBindingRedirects.cache
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.BarraUsuario.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.botonesEdicion.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.Calendario.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.Ajustes.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.CalculadoraFichas.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.ListaUsuarios.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.FichasEntradaAdmin.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.Inventarios.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.NuevoProveedor.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.NuevoUsuario.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.UserConfig.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.CamaronDatagrid.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.OtrosDatagrid.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.PescadoDatagrid.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.ListaFolios.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.labelCrear.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.ProveedorShowDialog.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.PruebaDelegados.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.Relog.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.Actulizacion_de_productos.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.FichaConfirmacion.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\CustomMessageBox.Private.FormMessageBox.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Login.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.MenuAdmin.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.MenuFicha.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Properties.Resources.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichaCamaron.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.CircularImagen.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.OtrosFicha.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.PescadoFicha.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\CustomControls.RJControls.RJTextBox.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\datagridview.UserControl1.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.UserControl1.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.MenuUsuario.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.ProvedorShowDialog.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.ProveeedorSelection.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.Pruebas_de_metodos.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.GenerateResource.cache
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.CoreCompileInputs.cache
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.exe
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.pdb
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.exe.config
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.exe.manifest
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.application
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.exe
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.pdb
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\bin\Debug\itextsharp.dll
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\bin\Debug\itextsharp.xml
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.exe.manifest
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.application
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.CopyComplete
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.CofiguariosUsuarios.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.ConfiguracionProveedores.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.NuevoProveedorMenu.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.MenuProveedor.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.ProductosConfig.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.NuevoProducto.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\bin\Debug\MySql.Data.dll
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\bin\Debug\MySqlConnector.dll
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\bin\Debug\System.Buffers.dll
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\bin\Debug\System.Memory.dll
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\bin\Debug\MySqlConnector.xml
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\bin\Debug\System.Buffers.xml
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\bin\Debug\System.Memory.xml
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.MenuUser.resources
+C:\Users\kriz_\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.CarritoProducto.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\MySql.Data.dll
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\MySqlConnector.dll
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\System.Buffers.dll
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\System.Memory.dll
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\Google.Protobuf.dll
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\ZstdNet.dll
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\MySql.Data.xml
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\MySqlConnector.xml
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\System.Buffers.xml
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\System.Memory.xml
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.CarritoProducto.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.ConfiguracionProveedores.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.CofiguariosUsuarios.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.NuevoProducto.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.ProductosConfig.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.NuevoProveedorMenu.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.MenuProveedor.resources
+C:\Users\Alumno\Desktop\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.MenuUser.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.exe.config
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.exe.manifest
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.application
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.exe
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\MarDeCortezDsk.pdb
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\itextsharp.dll
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\MySql.Data.dll
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\MySqlConnector.dll
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\System.Buffers.dll
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\System.Memory.dll
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\Google.Protobuf.dll
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\ZstdNet.dll
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\itextsharp.xml
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\MySql.Data.xml
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\MySqlConnector.xml
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\System.Buffers.xml
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\System.Memory.xml
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.AssemblyReference.cache
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.SuggestedBindingRedirects.cache
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.BarraUsuario.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.botonesEdicion.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.Calendario.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.CarritoProducto.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.Ajustes.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.CalculadoraFichas.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.ConfiguracionProveedores.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.CofiguariosUsuarios.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.NuevoProducto.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.ProductosConfig.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.ListaUsuarios.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.FichasEntradaAdmin.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.Inventarios.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.NuevoProveedor.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.NuevoProveedorMenu.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.NuevoUsuario.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.MenuProveedor.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasAdmin.UserConfig.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.CamaronDatagrid.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.OtrosDatagrid.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichasConfirmacion.PescadoDatagrid.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.ListaFolios.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.labelCrear.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.ProveedorShowDialog.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.PruebaDelegados.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.Relog.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.Actulizacion_de_productos.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.FichaConfirmacion.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\CustomMessageBox.Private.FormMessageBox.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Login.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.MenuUser.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.MenuAdmin.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.MenuFicha.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Properties.Resources.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.FichaCamaron.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.CircularImagen.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.OtrosFicha.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.PescadoFicha.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\CustomControls.RJControls.RJTextBox.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\datagridview.UserControl1.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.UserControlls.UserControl1.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.MenuUsuario.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.ProvedorShowDialog.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.ProveeedorSelection.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.Views.Pruebas_de_metodos.resources
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.GenerateResource.cache
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.CoreCompileInputs.cache
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.exe.manifest
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.application
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.csproj.CopyComplete
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.exe
+C:\Users\kriz_\Documents\MDC\backup\20 10 2022\Mar de cortez FormApp\obj\Debug\MarDeCortezDsk.pdb

@@ -1,0 +1,217 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using MarDeCortezDsk.Controllers;
+using MarDeCortezDsk.Models;
+using CustomMessageBox;
+using MarDeCortezDsk.UserControlls.Fichas;
+
+namespace MarDeCortezDsk.UserControlls
+{
+    public partial class OtrosFicha : UserControl , Ifichas
+    {
+ 
+        
+        public OtrosFicha()
+        {
+            InitializeComponent();
+        }
+        public OtrosFicha(Pescado pescado)
+        {
+            this.pescado = pescado;
+        }
+
+        private void OtrosFicha_Load(object sender, EventArgs e)
+        {
+            List<Catalogo_Productos> ListProducto = productoController.GetByOtros();
+            List<Catalogo_Presentaciones> ListPresentacion = presentacionController.GetByOtros();
+            LoadProducto(ListProducto);
+            LoadPresentacion(ListPresentacion);
+        }
+
+
+        List<Pescado> ListPescado = new List<Pescado>();
+        Pescado pescado = new Pescado();
+        CatalogoProductoController productoController = new CatalogoProductoController();
+        CatalogoPresentacionController presentacionController = new CatalogoPresentacionController();
+
+        /// <summary>
+        /// 
+        /// CARGA DE DATOS
+        /// 
+        /// </summary>
+
+        public void LoadProducto(List<Catalogo_Productos> ListProducto)
+        {
+            
+            foreach (Catalogo_Productos Pescado in ListProducto)
+            {
+
+                CmBoxProducto.Items.Add(Pescado.tipo_producto);
+
+            }
+
+        }
+
+
+        public void LoadPresentacion(List<Catalogo_Presentaciones> ListPresentacion)
+        {
+            
+            foreach (Catalogo_Presentaciones Presentacion in ListPresentacion)
+            {
+
+                CmBoxPresentacion.Items.Add(Presentacion.presentaciones);
+
+            }
+
+        }
+
+
+
+
+        /// <summary>
+        /// 
+        /// OBTENER DATOS
+        /// 
+        /// </summary>
+
+
+
+        public Pescado GetProducto(string FichaEntrada, string almacenaje)
+        {
+
+            PescadoController controller = new PescadoController();
+            pescado.IdProducto = controller.NewId();
+            pescado.FolioEntrada = FichaEntrada;
+            pescado.Tipo_producto = CmBoxProducto.Text;
+            pescado.Presentacion = CmBoxPresentacion.Text;
+            pescado.Almacenaje = almacenaje;
+            pescado.Cantidad = Convert.ToInt32(TxtboxCantidad.Text);
+            pescado.Kilos = KilosCalculation(pescado.Cantidad,pescado.Presentacion);
+            ListPescado.Add(pescado);
+            return pescado;
+
+        }
+
+        public bool ValidationValues()
+        {
+            if (CmBoxProducto.Text == "")
+            {
+                DialogResult result = RJMessageBox.Show("Por favor seleccione un producto.", "Aviso!");
+                return false;
+            }
+            else if (CmBoxPresentacion.Text == "")
+            {
+                DialogResult result = RJMessageBox.Show("Por favor seleccione una presentación.", "Aviso!");
+                return false;
+            }
+            
+            else if (TxtboxCantidad.Text == "")
+            {
+                DialogResult result = RJMessageBox.Show("Por favor ingrese una cantidad.", "Aviso!");
+                return false;
+            }
+            return true;
+        }
+
+
+
+        public void Clear()
+        {
+            CmBoxProducto.Text = null;
+            CmBoxPresentacion.Text = null;
+            TxtboxCantidad.Clear();
+        }
+
+
+        public float? KilosCalculation(int cantidad , string presentacion) 
+        {
+            float kilos;
+            switch (presentacion)
+            {
+                case "2 Kg":
+                    kilos = cantidad * 2;
+                    return kilos;                  
+                case "5 Kg":
+                    kilos = cantidad * 5;
+                    return kilos;
+                case "10 Kg  ":
+                    kilos = cantidad * 10;
+                    return kilos;
+
+
+                case "100-500g":
+                    kilos = cantidad * .35f;
+                    return kilos;
+                case "500-800g":
+                    kilos = cantidad * .75f;
+                    return kilos;
+                case "800-1.2 Kgg":
+                    kilos = cantidad * .75f;
+                    return kilos;
+                case "1.2-1.5Kg":
+                    kilos = cantidad * .75f;
+                    return kilos;
+                case "3-4 Kg":
+                    kilos = cantidad * .75f;
+                    return kilos;
+                case "6 Kg":
+                    kilos = cantidad * 6;
+                    return kilos;
+                case "7 Kg":
+                    kilos = cantidad * 7;
+                    return kilos;
+                case "8 Kg":
+                    kilos = cantidad * 8;
+                    return kilos;
+                case "9 Kg":
+                    kilos = cantidad * 9;
+                    return kilos;
+
+
+                case "Kileado":
+                    kilos = cantidad;
+                    return kilos;
+                case "Marqueta 2 Kg":
+                    kilos = cantidad * 2;
+                    return kilos;
+                case "Marqueta 5 Kg":
+                    kilos = cantidad * 5;
+                    return kilos;
+                case "Marqueta 10 Kgg":
+                    kilos = cantidad * 10;
+                    return kilos;
+
+            }
+
+            return null;
+        }
+
+
+
+
+
+
+        /// <summary>
+        /// TRASH
+        /// </summary>
+
+        private void BtnEnviar_Click(object sender, EventArgs e)
+        {
+        }
+        private void PescadoContainer_Paint(object sender, PaintEventArgs e)
+        {
+        }
+        private void CmBoxPresentacion_SelectedIndexChanged(object sender, EventArgs e)
+        {
+        }
+
+       
+    }
+}

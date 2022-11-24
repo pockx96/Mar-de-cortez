@@ -1,0 +1,16 @@
+C:\Users\abdie\source\repos\MarDeCortezDsk\bin\Release\MarDeCortezDsk.exe.config
+C:\Users\abdie\source\repos\MarDeCortezDsk\bin\Release\MarDeCortezDsk.exe
+C:\Users\abdie\source\repos\MarDeCortezDsk\bin\Release\MarDeCortezDsk.pdb
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Release\MarDeCortezDsk.csproj.AssemblyReference.cache
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Release\MarDeCortezDsk.camaronlist.resources
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Release\MarDeCortezDsk.Login.resources
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Release\MarDeCortezDsk.MenuCotroller.resources
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Release\MarDeCortezDsk.MenuElecc.resources
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Release\MarDeCortezDsk.MenuFicha.resources
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Release\MarDeCortezDsk.peceslist.resources
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Release\MarDeCortezDsk.Properties.Resources.resources
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Release\MarDeCortezDsk.TesterScreen.resources
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Release\MarDeCortezDsk.csproj.GenerateResource.cache
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Release\MarDeCortezDsk.csproj.CoreCompileInputs.cache
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Release\MarDeCortezDsk.exe
+C:\Users\abdie\source\repos\MarDeCortezDsk\obj\Release\MarDeCortezDsk.pdb
