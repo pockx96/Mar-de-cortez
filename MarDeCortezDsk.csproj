@@ -130,6 +130,7 @@
     <Compile Include="Controllers\UsuarioController.cs" />
     <Compile Include="Models\Inventario.cs" />
     <Compile Include="Models\IProducto.cs" />
+    <Compile Include="siJalanLosPuchVato.cs" />
     <Compile Include="Styles\Animations.cs" />
     <Compile Include="UserControlls\BarraUsuario.cs">
       <SubType>UserControl</SubType>
