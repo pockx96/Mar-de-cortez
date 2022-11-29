@@ -15,7 +15,7 @@ namespace MarDeCortezDsk.Controllers
         public List<Folios> Get()
         {
             List<Folios> FichaList = new List<Folios>();
-            string query = "select * from Folios";
+            string query = "select * from folios";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -53,7 +53,7 @@ namespace MarDeCortezDsk.Controllers
         public Folios Get(string folio)
         {
             List<Folios> FichaList = new List<Folios>();
-            string query = $"select * from Folios where IdFolio = '{folio}' ";
+            string query = $"select * from folios where IdFolio = '{folio}' ";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -90,7 +90,7 @@ namespace MarDeCortezDsk.Controllers
         public List<Folios> GetByUser(string user)
         {
             List<Folios> FichaList = new List<Folios>();
-            string query = "select * from Folios where IdUsuario = '"+ user + "' ";
+            string query = "select * from folios where IdUsuario = '"+ user + "' ";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -131,7 +131,7 @@ namespace MarDeCortezDsk.Controllers
         public List<Folios> GetByProveedor(string proveedor)
         {
             List<Folios> FichaList = new List<Folios>();
-            string query = "select * from Folios where IdProveedor = '" + proveedor + "' ";
+            string query = "select * from folios where IdProveedor = '" + proveedor + "' ";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -173,7 +173,7 @@ namespace MarDeCortezDsk.Controllers
             string Estado = estado;
             string Usuario = usuario;
             List<Folios> FichaList = new List<Folios>();
-            string query = $"select * from Folios where Estado = '{Estado}' and IdUsuario = '{Usuario}'";
+            string query = $"select * from folios where Estado = '{Estado}' and IdUsuario = '{Usuario}'";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -217,7 +217,7 @@ namespace MarDeCortezDsk.Controllers
             string id_usuario = fichaEntrada.id_usuario;
             string id_proveedor = fichaEntrada.id_proveedor;
             string fecha_entrada = fichaEntrada.fecha_entrada;
-            string query = "insert into Folios(IdFolio, IdUsuario, IdProveedor,Fecha,Estado) values" + "(@FichaEntrada, @id_usuario, @id_proveedor,@fecha_entrada,@Estado)";
+            string query = "insert into folios(IdFolio, IdUsuario, IdProveedores,Fecha,Estado) values" + "(@FichaEntrada, @id_usuario, @id_proveedor,@fecha_entrada,@Estado)";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -244,7 +244,7 @@ namespace MarDeCortezDsk.Controllers
         }
         public void Update(Folios folio)
         {
-            string query = $"UPDATE Folios set Estado='{folio.Estado}' where IdFolio = '{folio.IdFolio}'";
+            string query = $"UPDATE folios set Estado='{folio.Estado}' where IdFolio = '{folio.IdFolio}'";
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 MySqlCommand command = new MySqlCommand(query, connection);
@@ -264,8 +264,7 @@ namespace MarDeCortezDsk.Controllers
         {
             FoliosController fichaServer = new FoliosController();
             List<Folios> fichaList = fichaServer.Get();
-            int index = fichaList.Count+1;
-            string indexString = Convert.ToString(index);
+            string indexString = Convert.ToString(fichaList.Count + 1);
 
             if (indexString.Length == 1)
             {
@@ -281,7 +280,7 @@ namespace MarDeCortezDsk.Controllers
 
         public void Delete(string ficha)
         {
-            string query = "delete from Folios where IdFolio = @ficha";
+            string query = "delete from folios where IdFolio = @ficha";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {

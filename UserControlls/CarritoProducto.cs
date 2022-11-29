@@ -55,6 +55,7 @@ namespace MarDeCortezDsk.UserControlls
             CamaronAdd();
             FoliosController foliosController = new FoliosController();
             this.Folio = foliosController.NewId();
+            LblFolio.Text = Folio;
         }
 
         public void CamaronAdd()

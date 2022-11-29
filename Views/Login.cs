@@ -118,7 +118,7 @@ namespace MarDeCortezDsk
                             this.Hide();
 
                         }
-                        else if (ValidatorPass == Userpass && ValidatorRol == "administrador")
+                        else if (ValidatorPass == Userpass && ValidatorRol == "Administrador")
                         {
                             DialogResult result = RJMessageBox.Show("Bienvenido " + usuario.nombre_usuario + " !.", "Aviso!");
                             MenuAdmin menu = new MenuAdmin(usuario.id_usuario);

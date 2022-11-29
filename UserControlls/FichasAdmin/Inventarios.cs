@@ -27,6 +27,12 @@ namespace MarDeCortezDsk.UserControlls.FichasAdmin
 
         private void Inventarios_Load(object sender, EventArgs e)
         {
+            PescadoController pescadoController = new PescadoController();
+            List<Pescado> pescadoList = pescadoController.GetByProveedor("Tienda");
+            CamaronController camaronController = new CamaronController();
+            List<Camaron> CamaronList = camaronController.GetByProveedor("Tienda");
+            List<Pescado> ListInventario = pescadoController.MixList(CamaronList, pescadoList);
+            LoadData(ListInventario);
 
            
 
@@ -39,15 +45,15 @@ namespace MarDeCortezDsk.UserControlls.FichasAdmin
 
         }
 
-        public void LoadData(List<Inventario> listInventario)
+        public void LoadData(List<Pescado> listInventario)
         {
             DatagridInventario.Rows.Clear();
             int index;
-            foreach (Inventario element in listInventario)
+            foreach (Pescado element in listInventario)
             {
                 index = DatagridInventario.RowCount;
 
-                DatagridInventario.Rows.Insert(index, element.Id_producto,element.Producto, element.Presentacion, element.Stock, element.Kilos);
+                DatagridInventario.Rows.Insert(index, element.IdProducto,element.Tipo_producto, element.Presentacion, element.Cantidad, element.Kilos);
 
             }
         }

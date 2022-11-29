@@ -70,7 +70,7 @@ namespace MarDeCortezDsk.UserControlls.FichasAdmin
 
             }
 
-            DatagridUsuarios.CurrentRow.Selected = true;
+            /*/DatagridUsuarios.CurrentRow.Selected = true;*/
         }
 
         private void Eliminar()

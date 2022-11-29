@@ -15,7 +15,7 @@ namespace MarDeCortezDsk.Controllers
         public List<Pescado> Get()
         {
             List<Pescado> List = new List<Pescado>();
-            string query = "select * from Pescado order by TipoProducto";
+            string query = "select * from pescado order by TipoProducto";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -56,7 +56,7 @@ namespace MarDeCortezDsk.Controllers
         public Pescado Get(string id)
         {
             Pescado pescado = new Pescado();
-            string query = "select * from Pescado where IdProducto = '" + id + "' order by TipoProducto";
+            string query = "select * from pescado where IdProducto = '" + id + "' order by TipoProducto";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -96,7 +96,7 @@ namespace MarDeCortezDsk.Controllers
         public List<Pescado> GetByFolio(string id)
         {
             List<Pescado> List = new List<Pescado>();
-            string query = "select * from Pescado where IdFolio = '" + id + "' order by TipoProducto";
+            string query = "select * from pescado where IdFolio = '" + id + "' order by TipoProducto";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -137,7 +137,7 @@ namespace MarDeCortezDsk.Controllers
         public List<Pescado> GetByProveedor(string almacenaje)
         {
             List<Pescado> List = new List<Pescado>();
-            string query = "select * from Pescado where Almacenaje = '" + almacenaje + "' order by TipoProducto";
+            string query = "select * from pescado where Almacenaje = '" + almacenaje + "' order by TipoProducto";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -178,7 +178,7 @@ namespace MarDeCortezDsk.Controllers
 
         public void Delete(string ficha)
         {
-            string query = "delete from Pescado where IdProducto = @ficha";
+            string query = "delete from pescado where IdProducto = @ficha";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -210,7 +210,7 @@ namespace MarDeCortezDsk.Controllers
             string almacenaje = pescado.Almacenaje;
             string presentacion = pescado.Presentacion;
             int cantidad = pescado.Cantidad;
-            string query = "insert into Pescado(IdProducto,IdFolio, TipoProducto, Kilos, Almacenaje, Presentacion, Cantidad) values" + "(@idProducto, @folioEntrada, @tipo_producto, @kilos, @almacenaje, @presentacion, @cantidad)";
+            string query = "insert into pescado(IdProducto,IdFolio, TipoProducto, Kilos, Almacenaje, Presentacion, Cantidad) values" + "(@idProducto, @folioEntrada, @tipo_producto, @kilos, @almacenaje, @presentacion, @cantidad)";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -246,7 +246,7 @@ namespace MarDeCortezDsk.Controllers
             float? kilos = pescado.Kilos;
             int stock = pescado.Cantidad;
             string almacenaje = pescado.Almacenaje;
-            string query = "update Pescado set TipoProducto = @tipoProducto, Presentacion = @presentacion,Kilos = @kilos,Cantidad= @stock , Almacenaje = @almacenaje where IdProducto = @id";
+            string query = "update pescado set TipoProducto = @tipoProducto, Presentacion = @presentacion,Kilos = @kilos,Cantidad= @stock , Almacenaje = @almacenaje where IdProducto = @id";
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 MySqlCommand command = new MySqlCommand(query, connection);

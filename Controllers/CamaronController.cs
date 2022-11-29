@@ -16,7 +16,7 @@ namespace MarDeCortezDsk.Controllers
         {
 
             List<Camaron> List = new List<Camaron>();
-            string query = "select * from Camaron order by TipoProducto";
+            string query = "select * from camaron order by TipoProducto";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -56,7 +56,7 @@ namespace MarDeCortezDsk.Controllers
         public Camaron Get(string id)
         {
             Camaron camaron = new Camaron();
-            string query = "select * from Camaron where IdProducto = '" + id + "' order by TipoProducto"; 
+            string query = "select * from camaron where IdProducto = '" + id + "' order by TipoProducto"; 
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -97,7 +97,7 @@ namespace MarDeCortezDsk.Controllers
         public List<Camaron> GetbyFicha(string id)
         {
             List<Camaron> List = new List<Camaron>();
-            string query = "select * from Camaron where FolioEntrada = '" + id + "' order by TipoProducto";
+            string query = "select * from camaron where FolioEntrada = '" + id + "' order by TipoProducto";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -140,7 +140,7 @@ namespace MarDeCortezDsk.Controllers
         public List<Camaron> GetByProveedor(string almacenaje)
         {
             List<Camaron> List = new List<Camaron>();
-            string query = "select * from Camaron where Almacenaje = '" + almacenaje + "' order by TipoProducto";
+            string query = "select * from camaron where Almacenaje = '" + almacenaje + "' order by TipoProducto";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -189,7 +189,7 @@ namespace MarDeCortezDsk.Controllers
             string almacenaje = camaron.Almacenaje;
             string presentacion = camaron.Presentacion;
             int cantidad = camaron.Cantidad;
-            string query = "insert into Camaron(IdProducto, IdFolio, TipoProducto, Kilos, Medida, Almacenaje, Presentacion, Cantidad) values" + "(@idProducto, @FolioEntrada, @tipo_producto, @Kilos, @medida,  @almacenaje, @presentacion, @cantidad)";
+            string query = "insert into camaron(IdProducto, IdFolio, TipoProducto, Kilos, Medida, Almacenaje, Presentacion, Cantidad) values" + "(@idProducto, @FolioEntrada, @tipo_producto, @Kilos, @medida,  @almacenaje, @presentacion, @cantidad)";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -246,7 +246,7 @@ namespace MarDeCortezDsk.Controllers
             string medida = camaron.Medida;
             float? Kilos = camaron.Kilos;
             int stock = camaron.Cantidad;
-            string query = "update Camaron set TipoProducto = @tipoProducto, Medida = @medida,Presentacion = @presentacion,Kilos = @Kilos,Cantidad= @stock where IdProducto = @id";
+            string query = "update camaron set TipoProducto = @tipoProducto, Medida = @medida,Presentacion = @presentacion,Kilos = @Kilos,Cantidad= @stock where IdProducto = @id";
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 MySqlCommand command = new MySqlCommand(query, connection);
@@ -272,7 +272,7 @@ namespace MarDeCortezDsk.Controllers
         public void Delete(string ficha)
         {
 
-            string query = "delete from Camaron where IdProducto = @ficha";
+            string query = "delete from camaron where IdProducto = @ficha";
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 MySqlCommand command = new MySqlCommand(query, connection);
