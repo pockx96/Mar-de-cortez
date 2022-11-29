@@ -300,7 +300,6 @@
             this.TitleUsuario.Name = "TitleUsuario";
             this.TitleUsuario.Size = new System.Drawing.Size(131, 31);
             this.TitleUsuario.TabIndex = 14;
-            this.TitleUsuario.UserName = null;
             // 
             // BtnBack
             // 

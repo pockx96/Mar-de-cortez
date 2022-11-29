@@ -33,6 +33,7 @@
             this.BtnInventario = new FontAwesome.Sharp.IconButton();
             this.BtnUser = new FontAwesome.Sharp.IconButton();
             this.MenuContainer = new System.Windows.Forms.Panel();
+            this.BtnProducto = new FontAwesome.Sharp.IconButton();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.BtnAjustes = new FontAwesome.Sharp.IconButton();
             this.ContainerTileBar = new MarDeCortezDsk.UserControlls.SPanel();
@@ -43,7 +44,6 @@
             this.PanelForm = new MarDeCortezDsk.UserControlls.SPanel();
             this.ContainerComponents = new System.Windows.Forms.Panel();
             this.circularImagen1 = new MarDeCortezDsk.UserControlls.CircularImagen();
-            this.BtnProducto = new FontAwesome.Sharp.IconButton();
             this.MenuContainer.SuspendLayout();
             this.ContainerTileBar.SuspendLayout();
             this.PanelForm.SuspendLayout();
@@ -100,7 +100,7 @@
             this.BtnUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.BtnUser.ForeColor = System.Drawing.SystemColors.Control;
-            this.BtnUser.IconChar = FontAwesome.Sharp.IconChar.UserAlt;
+            this.BtnUser.IconChar = FontAwesome.Sharp.IconChar.SignOutAlt;
             this.BtnUser.IconColor = System.Drawing.Color.White;
             this.BtnUser.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnUser.Location = new System.Drawing.Point(13, 384);
@@ -129,6 +129,26 @@
             this.MenuContainer.Size = new System.Drawing.Size(154, 448);
             this.MenuContainer.TabIndex = 13;
             this.MenuContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.MenuContainer_Paint);
+            // 
+            // BtnProducto
+            // 
+            this.BtnProducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(122)))), ((int)(((byte)(242)))));
+            this.BtnProducto.FlatAppearance.BorderSize = 0;
+            this.BtnProducto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnProducto.ForeColor = System.Drawing.SystemColors.Control;
+            this.BtnProducto.IconChar = FontAwesome.Sharp.IconChar.DollyFlatbed;
+            this.BtnProducto.IconColor = System.Drawing.Color.White;
+            this.BtnProducto.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BtnProducto.Location = new System.Drawing.Point(3, 311);
+            this.BtnProducto.Name = "BtnProducto";
+            this.BtnProducto.Size = new System.Drawing.Size(156, 64);
+            this.BtnProducto.TabIndex = 12;
+            this.BtnProducto.Text = "Producto";
+            this.BtnProducto.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnProducto.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BtnProducto.UseVisualStyleBackColor = false;
+            this.BtnProducto.Click += new System.EventHandler(this.BtnProducto_Click);
             // 
             // iconButton1
             // 
@@ -195,7 +215,7 @@
             // CalendarioContainer
             // 
             this.CalendarioContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.CalendarioContainer.Fecha = "13-09-2022";
+            this.CalendarioContainer.Fecha = "28-11-2022";
             this.CalendarioContainer.Location = new System.Drawing.Point(732, 24);
             this.CalendarioContainer.Name = "CalendarioContainer";
             this.CalendarioContainer.Size = new System.Drawing.Size(131, 31);
@@ -208,7 +228,6 @@
             this.TitleUsuario.Name = "TitleUsuario";
             this.TitleUsuario.Size = new System.Drawing.Size(131, 31);
             this.TitleUsuario.TabIndex = 14;
-            this.TitleUsuario.UserName = null;
             // 
             // BtnBack
             // 
@@ -260,26 +279,6 @@
             this.circularImagen1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.circularImagen1.TabIndex = 11;
             this.circularImagen1.TabStop = false;
-            // 
-            // BtnProducto
-            // 
-            this.BtnProducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(122)))), ((int)(((byte)(242)))));
-            this.BtnProducto.FlatAppearance.BorderSize = 0;
-            this.BtnProducto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnProducto.ForeColor = System.Drawing.SystemColors.Control;
-            this.BtnProducto.IconChar = FontAwesome.Sharp.IconChar.DollyFlatbed;
-            this.BtnProducto.IconColor = System.Drawing.Color.White;
-            this.BtnProducto.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.BtnProducto.Location = new System.Drawing.Point(3, 311);
-            this.BtnProducto.Name = "BtnProducto";
-            this.BtnProducto.Size = new System.Drawing.Size(156, 64);
-            this.BtnProducto.TabIndex = 12;
-            this.BtnProducto.Text = "Producto";
-            this.BtnProducto.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnProducto.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.BtnProducto.UseVisualStyleBackColor = false;
-            this.BtnProducto.Click += new System.EventHandler(this.BtnProducto_Click);
             // 
             // MenuAdmin
             // 

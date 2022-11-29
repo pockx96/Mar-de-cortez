@@ -17,16 +17,22 @@ namespace MarDeCortezDsk.UserControlls
             InitializeComponent();
         }
 
-        public string UserName { get; set; }
         private void BarraUsuario_Load(object sender, EventArgs e)
         {
-            if (UserName != null)
-            {
-                LblUser.Text = UserName;
-            }
+
+        }
+
+        public void Title(string name)
+        {
+            LblUser.Text = name;
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
         {
 
         }

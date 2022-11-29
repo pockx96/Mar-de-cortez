@@ -38,7 +38,7 @@ namespace MarDeCortezDsk.UserControlls.FichasAdmin
         private void DatagridUsuarios_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Animations animations = new Animations();
-            Point location = animations.BtnlocationDatagrid(DatagridUsuarios,340,Cursor.Position.Y,new Point(510, 116),12);
+            Point location = animations.BtnlocationDatagrid(DatagridUsuarios,340,Cursor.Position.Y,new Point(460, 116),12);
             BotonesEdicion.Location = location;
             UsuarioController usuarioServise = new UsuarioController();
             Usuarios usuarios = usuarioServise.Get(DatagridUsuarios.CurrentRow.Cells[0].Value.ToString());

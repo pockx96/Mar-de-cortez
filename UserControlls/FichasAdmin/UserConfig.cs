@@ -40,19 +40,6 @@ namespace MarDeCortezDsk.UserControlls.FichasAdmin
             UsuariosContainer.Controls.Clear();
             UsuariosContainer.Controls.Add(cofiguariosUsuarios);
 
-            /*
-            labelCrear lblCrear = new labelCrear("Crear nuevo usuario") {Location = new Point(29, 31) };
-            lblCrear.Crear += new labelCrear.CrearDelegate(Crear);
-            ListaUsuarios lstUsuarios = new ListaUsuarios(new Point(496, 116)) { Location = new Point(32, 89) };
-            lstUsuarios.GetUsuario += new ListaUsuarios.GetUsuarioDelegate(RefreshUser);
-            lstUsuarios.SideBtnLocation += new ListaUsuarios.ButtonsLocationDelegate(SideBtnLocation);
-
-            botonesEdicion.editar += new botonesEdicion.editarDelegate(Actualizar);
-            botonesEdicion.eliminar += new botonesEdicion.eliminarDelegate(lstUsuarios.Delete);
-            UsuariosContainer.Controls.Clear();
-            UsuariosContainer.Controls.Add(lblCrear);
-            UsuariosContainer.Controls.Add(lstUsuarios);
-            UsuariosContainer.Controls.Add(botonesEdicion);*/
 
         }
 

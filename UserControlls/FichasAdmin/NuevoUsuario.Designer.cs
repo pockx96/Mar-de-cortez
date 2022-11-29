@@ -36,9 +36,9 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.TxtBoxId = new CustomControls.RJControls.RJTextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.TxtBoxId = new CustomControls.RJControls.RJTextBox();
             this.TxtBoxNombre = new CustomControls.RJControls.RJTextBox();
             this.TxtBoxPass = new CustomControls.RJControls.RJTextBox();
             this.botonRedondo1 = new MarDeCortezDsk.UserControlls.BotonRedondo();
@@ -148,29 +148,9 @@
             this.label5.ForeColor = System.Drawing.SystemColors.Control;
             this.label5.Location = new System.Drawing.Point(27, 16);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(28, 20);
+            this.label5.Size = new System.Drawing.Size(71, 20);
             this.label5.TabIndex = 40;
-            this.label5.Text = "ID";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.SystemColors.Control;
-            this.label7.Location = new System.Drawing.Point(31, 242);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(216, 20);
-            this.label7.TabIndex = 38;
-            this.label7.Text = "_______________________";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.ForeColor = System.Drawing.SystemColors.Control;
-            this.label6.Location = new System.Drawing.Point(31, 157);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(216, 20);
-            this.label6.TabIndex = 37;
-            this.label6.Text = "_______________________";
+            this.label5.Text = "Usuario";
             // 
             // TxtBoxId
             // 
@@ -195,6 +175,26 @@
             this.TxtBoxId.Texts = "";
             this.TxtBoxId.UnderlinedStyle = false;
             this.TxtBoxId._TextChanged += new System.EventHandler(this.TxtBoxId__TextChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.SystemColors.Control;
+            this.label7.Location = new System.Drawing.Point(31, 242);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(216, 20);
+            this.label7.TabIndex = 38;
+            this.label7.Text = "_______________________";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.SystemColors.Control;
+            this.label6.Location = new System.Drawing.Point(31, 157);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(216, 20);
+            this.label6.TabIndex = 37;
+            this.label6.Text = "_______________________";
             // 
             // TxtBoxNombre
             // 

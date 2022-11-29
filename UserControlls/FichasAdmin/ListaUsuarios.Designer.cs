@@ -36,7 +36,6 @@
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.DatagridUsuarios)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,8 +59,7 @@
             this.DatagridUsuarios.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
-            this.Column3,
-            this.Column4});
+            this.Column3});
             this.DatagridUsuarios.Cursor = System.Windows.Forms.Cursors.Hand;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
@@ -91,31 +89,26 @@
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
             this.DatagridUsuarios.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.DatagridUsuarios.RowTemplate.Height = 34;
-            this.DatagridUsuarios.Size = new System.Drawing.Size(458, 262);
+            this.DatagridUsuarios.Size = new System.Drawing.Size(364, 262);
             this.DatagridUsuarios.TabIndex = 51;
             this.DatagridUsuarios.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DatagridFolios_CellContentClick);
             // 
             // Column1
             // 
-            this.Column1.HeaderText = "ID";
+            this.Column1.HeaderText = "Usuario";
             this.Column1.Name = "Column1";
             // 
             // Column2
             // 
             this.Column2.HeaderText = "Nombre";
             this.Column2.Name = "Column2";
-            this.Column2.Width = 115;
+            this.Column2.Width = 130;
             // 
             // Column3
             // 
             this.Column3.HeaderText = "Tipo Usuario";
             this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Contraseña";
-            this.Column4.Name = "Column4";
-            this.Column4.Width = 110;
+            this.Column3.Width = 130;
             // 
             // ListaUsuarios
             // 
@@ -124,7 +117,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(76)))));
             this.Controls.Add(this.DatagridUsuarios);
             this.Name = "ListaUsuarios";
-            this.Size = new System.Drawing.Size(458, 262);
+            this.Size = new System.Drawing.Size(364, 262);
             this.Load += new System.EventHandler(this.EditarUsuario_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DatagridUsuarios)).EndInit();
             this.ResumeLayout(false);
@@ -136,6 +129,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
     }
 }

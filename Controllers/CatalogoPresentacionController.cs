@@ -15,7 +15,7 @@ namespace MarDeCortezDsk.Controllers
         {
 
             List<Catalogo_Presentaciones> List = new List<Catalogo_Presentaciones>();
-            string query = "select * from catalogoPresentacion order by IdPresentacion";
+            string query = "select * from catalogopresentacion order by IdPresentacion";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -51,7 +51,7 @@ namespace MarDeCortezDsk.Controllers
         {
 
             Catalogo_Presentaciones Presentacion = new Catalogo_Presentaciones();
-            string query = $"select * from catalogoPresentacion where IdPresentacion = '{id}'";
+            string query = $"select * from catalogopresentacion where IdPresentacion = '{id}'";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -85,7 +85,7 @@ namespace MarDeCortezDsk.Controllers
         {
 
             List<Catalogo_Presentaciones> List = new List<Catalogo_Presentaciones>();
-            string query = "select * from catalogoPresentacion where IdPresentacion between 100 and 199 order by IdPresentacion";
+            string query = "select * from catalogopresentacion where IdPresentacion between 100 and 199 order by IdPresentacion";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -121,7 +121,7 @@ namespace MarDeCortezDsk.Controllers
         {
 
             List<Catalogo_Presentaciones> List = new List<Catalogo_Presentaciones>();
-            string query = "select * from catalogoPresentacion where IdPresentacion between 200 and 299 order by IdPresentacion";
+            string query = "select * from catalogopresentacion where IdPresentacion between 200 and 299 order by IdPresentacion";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -158,7 +158,7 @@ namespace MarDeCortezDsk.Controllers
         {
 
             List<Catalogo_Presentaciones> List = new List<Catalogo_Presentaciones>();
-            string query = "select * from catalogoPresentacion where IdPresentacion between 300 and 399 order by IdPresentacion";
+            string query = "select * from catalogopresentacion where IdPresentacion between 300 and 399 order by IdPresentacion";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -197,7 +197,7 @@ namespace MarDeCortezDsk.Controllers
         {
             int IdPresentacion = NewId(tipo);
             string NombrePresentacion = producto.presentaciones;
-            string query = $"insert into catalogoPresentacion(IdPresentacion,NombrePresentacion)values('{IdPresentacion}', '{NombrePresentacion}')";
+            string query = $"insert into catalogopresentacion(IdPresentacion,NombrePresentacion)values('{IdPresentacion}', '{NombrePresentacion}')";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -248,7 +248,7 @@ namespace MarDeCortezDsk.Controllers
         {
             int id = Presentacion.id_presentaciones;
             string NombrePresentacion = Presentacion.presentaciones;
-            string query = $"update catalogoPresentacion set  NombrePresentacion = '{NombrePresentacion}' where IdPresentacion = '{id}'";
+            string query = $"update catalogopresentacion set  NombrePresentacion = '{NombrePresentacion}' where IdPresentacion = '{id}'";
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 MySqlCommand command = new MySqlCommand(query, connection);
@@ -267,7 +267,7 @@ namespace MarDeCortezDsk.Controllers
         }
         public void Delete(string id)
         {
-            string query = $"delete from catalogoPresentacion where IdPresentacion = '{id}'";
+            string query = $"delete from catalogopresentacion where IdPresentacion = '{id}'";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {

@@ -75,6 +75,7 @@
             this.panel4.Padding = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.panel4.Size = new System.Drawing.Size(95, 31);
             this.panel4.TabIndex = 13;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // LblUser
             // 

@@ -33,7 +33,7 @@ namespace MarDeCortezDsk.Views
         {
             FichaEntradaAdd();
             ActivateButton(BtnFichas, RGBColors.color1);
-
+            TitleUsuario.Title(Usuario);
         }
 
         public string Usuario { get; set; }

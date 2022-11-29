@@ -31,8 +31,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.LblEliminar = new System.Windows.Forms.Label();
             this.LblEditar = new System.Windows.Forms.Label();
-            this.LblDetalles = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -51,7 +49,7 @@
             this.LblEliminar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LblEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblEliminar.ForeColor = System.Drawing.Color.White;
-            this.LblEliminar.Location = new System.Drawing.Point(147, 3);
+            this.LblEliminar.Location = new System.Drawing.Point(65, 2);
             this.LblEliminar.Name = "LblEliminar";
             this.LblEliminar.Size = new System.Drawing.Size(65, 20);
             this.LblEliminar.TabIndex = 42;
@@ -71,37 +69,14 @@
             this.LblEditar.Text = "Editar";
             this.LblEditar.Click += new System.EventHandler(this.LblEditar_Click);
             // 
-            // LblDetalles
-            // 
-            this.LblDetalles.AutoSize = true;
-            this.LblDetalles.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblDetalles.ForeColor = System.Drawing.Color.White;
-            this.LblDetalles.Location = new System.Drawing.Point(65, 3);
-            this.LblDetalles.Name = "LblDetalles";
-            this.LblDetalles.Size = new System.Drawing.Size(67, 20);
-            this.LblDetalles.TabIndex = 43;
-            this.LblDetalles.Text = "Detalles";
-            this.LblDetalles.Click += new System.EventHandler(this.LblDetalles_Click);
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Location = new System.Drawing.Point(138, 3);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(3, 18);
-            this.panel3.TabIndex = 39;
-            // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.panel3);
-            this.panel2.Controls.Add(this.LblDetalles);
             this.panel2.Controls.Add(this.LblEditar);
             this.panel2.Controls.Add(this.LblEliminar);
             this.panel2.Controls.Add(this.panel1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(218, 26);
+            this.panel2.Size = new System.Drawing.Size(138, 26);
             this.panel2.TabIndex = 44;
             // 
             // botonesEdicion
@@ -111,7 +86,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(76)))));
             this.Controls.Add(this.panel2);
             this.Name = "botonesEdicion";
-            this.Size = new System.Drawing.Size(218, 26);
+            this.Size = new System.Drawing.Size(139, 26);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
@@ -123,8 +98,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label LblEliminar;
         private System.Windows.Forms.Label LblEditar;
-        private System.Windows.Forms.Label LblDetalles;
-        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel2;
     }
 }

@@ -35,6 +35,7 @@ namespace MarDeCortezDsk.Views
             ActivateButton(BtnFolios, RGBColors.color1);
             Fecha = CalendarioContainer.Fecha;
             carrito.Restart += new CarritoProducto.RestartDelegate(RestartScreen);
+            TitleUsuario.Title(Usuario);
         }
 
         public string Usuario { get; set; }
