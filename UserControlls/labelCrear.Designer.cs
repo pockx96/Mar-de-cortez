@@ -52,7 +52,7 @@
             this.Controls.Add(this.LblCrear);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "labelCrear";
-            this.Size = new System.Drawing.Size(198, 22);
+            this.Size = new System.Drawing.Size(233, 22);
             this.Load += new System.EventHandler(this.labelCrear_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -80,7 +80,7 @@ namespace MarDeCortezDsk.Views
 
             string folio = DataGridFolios.CurrentRow.Cells[0].Value.ToString();
             Folio = folio;
-            List<Camaron> ListCamaron = camaronController.GetbyFicha(folio);
+            List<Camaron> ListCamaron = camaronController.GetbyFolio(folio);
             List<Pescado> ListPescado = pescadoController.GetByFolio(folio);
             List<Pescado> ListMesclada = pescadoController.MixList(ListCamaron, ListPescado);
             loadProductos(ListMesclada);
@@ -145,7 +145,7 @@ namespace MarDeCortezDsk.Views
 
         public void ProductosReLoad()
         {
-            List<Camaron> ListCamaron = camaronController.GetbyFicha(Folio);
+            List<Camaron> ListCamaron = camaronController.GetbyFolio(Folio);
             List<Pescado> ListPescado = pescadoController.GetByFolio(Folio);
             List<Pescado> ListMesclada = pescadoController.MixList(ListCamaron, ListPescado);
             loadProductos(ListMesclada);

@@ -403,12 +403,6 @@
     <Compile Include="Views\ProvedorShowDialog.Designer.cs">
       <DependentUpon>ProvedorShowDialog.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\ProveeedorSelection.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\ProveeedorSelection.Designer.cs">
-      <DependentUpon>ProveeedorSelection.cs</DependentUpon>
-    </Compile>
     <Compile Include="Views\prueba.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -554,9 +548,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\ProvedorShowDialog.resx">
       <DependentUpon>ProvedorShowDialog.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\ProveeedorSelection.resx">
-      <DependentUpon>ProveeedorSelection.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Pruebas de metodos.resx">
       <DependentUpon>Pruebas de metodos.cs</DependentUpon>

@@ -60,12 +60,11 @@ namespace MarDeCortezDsk.UserControlls.FichasAdmin
 
             labelCrear labelCrear = new labelCrear("Crear nuevo usuario"){ Location = new Point(44, 26) };
             this.Controls.Add(labelCrear);
-            if (Editar != null && /*Detalles != null &&*/ Crear != null)
+            if (Editar != null && Crear != null)
             {
 
                 BotonesEdicion.eliminar += new botonesEdicion.eliminarDelegate(Eliminar);
                 BotonesEdicion.editar += new botonesEdicion.editarDelegate(Editar);
-                /*BotonesEdicion.detalles += new botonesEdicion.detallerDelegate(Detalles);*/
                 labelCrear.Crear += new labelCrear.CrearDelegate(Crear);
 
             }
@@ -82,6 +81,11 @@ namespace MarDeCortezDsk.UserControlls.FichasAdmin
                 DatagridUsuarios.Rows.Remove(DatagridUsuarios.CurrentRow);
 
             }
+        }
+
+        private void BotonesEdicion_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

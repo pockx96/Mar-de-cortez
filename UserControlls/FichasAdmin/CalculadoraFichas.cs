@@ -53,7 +53,7 @@ namespace MarDeCortezDsk.UserControlls.FichasAdmin
 
 
             List<Pescado> ListPescados = PescadoServise.GetByFolio(fichaEntradas);
-            List<Camaron> ListCamarones = CamaronServise.GetbyFicha(fichaEntradas);
+            List<Camaron> ListCamarones = CamaronServise.GetbyFolio(fichaEntradas);
             List<Pescado> ListMix = PescadoServise.MixList(ListCamarones, ListPescados);
 
             var ListSort = from p in ListMix

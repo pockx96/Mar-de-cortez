@@ -11,6 +11,7 @@ using MarDeCortezDsk.Controllers;
 using MarDeCortezDsk.Models;
 using MarDeCortezDsk.Styles;
 using FontAwesome.Sharp;
+using CustomMessageBox;
 
 namespace MarDeCortezDsk.UserControlls
 {
@@ -31,12 +32,12 @@ namespace MarDeCortezDsk.UserControlls
         public event CalcularDelegate Calcular;
         string Usuario { get; set; }
 
-        public void LoadData(string estado)
+        public void LoadData(string estado,string usuario)
         {
             
             DatagridFolios.Rows.Clear();
             FoliosController fichaServise = new FoliosController();
-            List<Folios> fichaEntradas = fichaServise.GetByEstado(estado,Usuario);
+            List<Folios> fichaEntradas = fichaServise.GetByEstado(estado, usuario);
             UsuarioController userServise = new UsuarioController();
             int index;
             foreach (Folios element in fichaEntradas)
@@ -49,7 +50,24 @@ namespace MarDeCortezDsk.UserControlls
             }
 
         }
+        public void LoadData(string estado)
+        {
 
+            DatagridFolios.Rows.Clear();
+            FoliosController fichaServise = new FoliosController();
+            List<Folios> fichaEntradas = fichaServise.GetByEstado(estado);
+            UsuarioController userServise = new UsuarioController();
+            int index;
+            foreach (Folios element in fichaEntradas)
+            {
+                index = DatagridFolios.RowCount - 1;
+                Usuarios user = userServise.Get(element.id_usuario);
+
+                DatagridFolios.Rows.Insert(index, element.IdFolio, element.id_proveedor, element.fecha_entrada, user.nombre_usuario);
+
+            }
+
+        }
         private void BtnCalcular_Click(object sender, EventArgs e)
         {
             if (DatagridFolios.RowCount > 1)
@@ -63,9 +81,14 @@ namespace MarDeCortezDsk.UserControlls
         {
             if (DatagridFolios.RowCount > 1)
             {
-                FoliosController fichaServise = new FoliosController();
-                fichaServise.Delete(DatagridFolios.CurrentRow.Cells[0].Value.ToString());
-                DatagridFolios.Rows.Remove(DatagridFolios.CurrentRow);
+                var result = RJMessageBox.Show("¿Desea Eliminar este folio?", "Advertencia", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+                if (result == DialogResult.OK)
+                {
+                    FoliosController fichaServise = new FoliosController();
+                    fichaServise.Delete(DatagridFolios.CurrentRow.Cells[0].Value.ToString());
+                    DatagridFolios.Rows.Remove(DatagridFolios.CurrentRow);
+                    
+                }
             }
 
         }

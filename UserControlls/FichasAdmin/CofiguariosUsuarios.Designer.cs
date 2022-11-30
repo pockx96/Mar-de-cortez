@@ -33,10 +33,10 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.DatagridUsuarios = new System.Windows.Forms.DataGridView();
-            this.BotonesEdicion = new MarDeCortezDsk.UserControlls.botonesEdicion();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BotonesEdicion = new MarDeCortezDsk.UserControlls.botonesEdicion();
             ((System.ComponentModel.ISupportInitialize)(this.DatagridUsuarios)).BeginInit();
             this.SuspendLayout();
             // 
@@ -94,14 +94,6 @@
             this.DatagridUsuarios.TabIndex = 52;
             this.DatagridUsuarios.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DatagridUsuarios_CellContentClick);
             // 
-            // BotonesEdicion
-            // 
-            this.BotonesEdicion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(76)))));
-            this.BotonesEdicion.Location = new System.Drawing.Point(460, 116);
-            this.BotonesEdicion.Name = "BotonesEdicion";
-            this.BotonesEdicion.Size = new System.Drawing.Size(137, 26);
-            this.BotonesEdicion.TabIndex = 1;
-            // 
             // Column1
             // 
             this.Column1.HeaderText = "Usuario";
@@ -120,6 +112,15 @@
             this.Column3.HeaderText = "Tipo Usuario";
             this.Column3.Name = "Column3";
             this.Column3.Width = 150;
+            // 
+            // BotonesEdicion
+            // 
+            this.BotonesEdicion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(76)))));
+            this.BotonesEdicion.Location = new System.Drawing.Point(460, 116);
+            this.BotonesEdicion.Name = "BotonesEdicion";
+            this.BotonesEdicion.Size = new System.Drawing.Size(137, 26);
+            this.BotonesEdicion.TabIndex = 1;
+            this.BotonesEdicion.Load += new System.EventHandler(this.BotonesEdicion_Load);
             // 
             // CofiguariosUsuarios
             // 

@@ -90,16 +90,16 @@
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
             this.DatagridProveedor.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.DatagridProveedor.RowTemplate.Height = 34;
-            this.DatagridProveedor.Size = new System.Drawing.Size(394, 262);
+            this.DatagridProveedor.Size = new System.Drawing.Size(425, 262);
             this.DatagridProveedor.TabIndex = 52;
             this.DatagridProveedor.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DatagridUsuarios_CellContentClick);
             // 
             // BotonesEdicion
             // 
             this.BotonesEdicion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(76)))));
-            this.BotonesEdicion.Location = new System.Drawing.Point(448, 116);
+            this.BotonesEdicion.Location = new System.Drawing.Point(475, 117);
             this.BotonesEdicion.Name = "BotonesEdicion";
-            this.BotonesEdicion.Size = new System.Drawing.Size(218, 26);
+            this.BotonesEdicion.Size = new System.Drawing.Size(139, 26);
             this.BotonesEdicion.TabIndex = 1;
             // 
             // Column1
@@ -117,6 +117,7 @@
             // 
             this.Column3.HeaderText = "Telefono";
             this.Column3.Name = "Column3";
+            this.Column3.Width = 130;
             // 
             // ConfiguracionProveedores
             // 

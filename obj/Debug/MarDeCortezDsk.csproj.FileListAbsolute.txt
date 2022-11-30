@@ -781,7 +781,6 @@ C:\Users\kriz_\Documents\MDC\Mar-de-cortez\obj\Debug\datagridview.UserControl1.r
 C:\Users\kriz_\Documents\MDC\Mar-de-cortez\obj\Debug\MarDeCortezDsk.UserControlls.UserControl1.resources
 C:\Users\kriz_\Documents\MDC\Mar-de-cortez\obj\Debug\MarDeCortezDsk.Views.MenuUsuario.resources
 C:\Users\kriz_\Documents\MDC\Mar-de-cortez\obj\Debug\MarDeCortezDsk.Views.ProvedorShowDialog.resources
-C:\Users\kriz_\Documents\MDC\Mar-de-cortez\obj\Debug\MarDeCortezDsk.Views.ProveeedorSelection.resources
 C:\Users\kriz_\Documents\MDC\Mar-de-cortez\obj\Debug\MarDeCortezDsk.Views.Pruebas_de_metodos.resources
 C:\Users\kriz_\Documents\MDC\Mar-de-cortez\obj\Debug\MarDeCortezDsk.csproj.GenerateResource.cache
 C:\Users\kriz_\Documents\MDC\Mar-de-cortez\obj\Debug\MarDeCortezDsk.csproj.CoreCompileInputs.cache

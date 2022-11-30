@@ -209,6 +209,45 @@ namespace MarDeCortezDsk.Controllers
 
         }
 
+        public List<Folios> GetByEstado(string estado)
+        {
+            string Estado = estado;
+            List<Folios> FichaList = new List<Folios>();
+            string query = $"select * from folios where Estado = '{Estado}'";
+
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                MySqlCommand command = new MySqlCommand(query, connection);
+
+                try
+                {
+                    connection.Open();
+                    MySqlDataReader reader = command.ExecuteReader();
+
+                    while (reader.Read())
+                    {
+                        Folios Ficha = new Folios();
+                        Ficha.IdFolio = reader.GetString(0);
+                        Ficha.id_usuario = reader.GetString(1);
+                        Ficha.id_proveedor = reader.GetString(2);
+                        Ficha.fecha_entrada = reader.GetString(3);
+                        FichaList.Add(Ficha);
+
+                    }
+                    reader.Close();
+                    connection.Close();
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception("error de la base de datos : " + ex);
+
+                }
+
+                return FichaList;
+
+            }
+
+        }
 
 
         public void Post(Folios fichaEntrada)

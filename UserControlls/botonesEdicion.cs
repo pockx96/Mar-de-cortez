@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CustomMessageBox;
 
 namespace MarDeCortezDsk.UserControlls
 {
@@ -41,7 +42,14 @@ namespace MarDeCortezDsk.UserControlls
 
         private void LblEliminar_Click(object sender, EventArgs e)
         {
-            if(eliminar != null) { eliminar(); }
+            if(eliminar != null) 
+            { 
+                var result = RJMessageBox.Show("¿Esta seguro que desea eliminar?", "Advertencia", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+                if (result == DialogResult.OK)
+                {
+                    eliminar();
+                }
+            }
         }
     }
 }

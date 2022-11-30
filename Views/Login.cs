@@ -91,10 +91,49 @@ namespace MarDeCortezDsk
         }
         public void BtnAgregar_Click(object sender, EventArgs e)
         {
-            ValidarDatos();
             UsuarioController UserServise = new UsuarioController();
+            Usuarios UsuarioValidator = UserServise.Get(txtBox_user.Texts);
 
-            try
+            if (txtBox_user.Texts == "" || txtBox_user.Texts == "Usuario")
+            {
+                DialogResult result = RJMessageBox.Show("Campo Usuario Vacio, por favor asegurese de completarlo.",
+              "Aviso!");
+
+            }
+            else if (txtBox_psswrd.Texts == "" || txtBox_psswrd.Texts == "Contraseña")
+            {
+                DialogResult result = RJMessageBox.Show("Campo contraseña vacio por favor asegurese de completarlo.",
+                "Aviso!");
+            }
+            else if (txtBox_user.Texts != UsuarioValidator.id_usuario)
+            {
+                DialogResult result = RJMessageBox.Show("Usuario incorrecto.",
+                "Aviso!");
+            }
+            else if (txtBox_psswrd.Texts != UsuarioValidator.password)
+            {
+                DialogResult result = RJMessageBox.Show("Contraseña incorrecta.",
+                "Aviso!");
+            }
+            else if (txtBox_user.Texts == UsuarioValidator.id_usuario && txtBox_psswrd.Texts == UsuarioValidator.password )
+            {
+               if (UsuarioValidator.tipo_usuario == "Usuario\t")
+               {
+                    DialogResult result = RJMessageBox.Show("Bienvenido " + UsuarioValidator.nombre_usuario + " !.", "Aviso!");
+                    MenuUser menu = new MenuUser(UsuarioValidator.id_usuario);
+                    menu.Show();
+                    this.Hide();
+               }
+               else if (UsuarioValidator.tipo_usuario == "Administrador")
+               {
+                    DialogResult result = RJMessageBox.Show("Bienvenido " + UsuarioValidator.nombre_usuario + " !.", "Aviso!");
+                    MenuAdmin menu = new MenuAdmin(UsuarioValidator.id_usuario);
+                    menu.Show();
+                    this.Hide();
+                }
+            }
+
+            /*try
             {
                 string Username = txtBox_user.Texts;
                 string Userpass = txtBox_psswrd.Texts;
@@ -151,23 +190,10 @@ namespace MarDeCortezDsk
             {
 
 
-            }
+            }*/
 
         }
-        public void ValidarDatos()
-        {
-            if (txtBox_user.Texts == "" || txtBox_user.Texts == "Usuario")
-            {
-                DialogResult result = RJMessageBox.Show("Campo Usuario Vacio, por favor asegurese de completarlo.",
-              "Aviso!");
-
-            }
-            else if (txtBox_psswrd.Texts == "" || txtBox_psswrd.Texts == "Contraseña")
-            {
-                DialogResult result = RJMessageBox.Show("Campo contraseña vacio por favor asegurese de completarlo.",
-                "Aviso!");
-            }
-        }
+    
 
         private void EyeButton_Click(object sender, EventArgs e)
         {
@@ -183,16 +209,6 @@ namespace MarDeCortezDsk
             }
         }
 
-        private string stringToDb(string word)
-        {
-            int lenght = 20 - word.Length;
-            string StringDb = word;
-            for (int i = 0; i < lenght; i++)
-            {
-                StringDb = StringDb + " ";
-            }
-            return StringDb;
-        }
 
         private void sPanel1_Paint(object sender, PaintEventArgs e)
         {

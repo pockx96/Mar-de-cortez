@@ -62,7 +62,7 @@ namespace MarDeCortezDsk.Views
         private void FichaEntradaAdd()
         {
             ListaFolios listaFolios = new ListaFolios(Usuario);
-            listaFolios.LoadData("Pendiente");
+            listaFolios.LoadData("Pendiente",Usuario);
             listaFolios.Calcular += new ListaFolios.CalcularDelegate(Calcular);
             BtnBack.Visible = false;
             listaFolios.Location = new Point(0,0);
@@ -91,6 +91,8 @@ namespace MarDeCortezDsk.Views
             ContainerComponents.Controls.Clear();
             ContainerComponents.Controls.Add(Calculadora);
             BtnBack.Visible = true;
+            this.Back += new BackDelegate(RestartScreen);
+
         }
 
         /// <summary>
@@ -148,7 +150,6 @@ namespace MarDeCortezDsk.Views
             BtnOtros.Location = new Point(2, 231);
 
             this.Back += new BackDelegate(RestartScreen);
-            ActivateButton(sender, RGBColors.color6);
         }
 
         private void BtnUser_Click(object sender, EventArgs e)
@@ -196,7 +197,6 @@ namespace MarDeCortezDsk.Views
 
             this.Back += new BackDelegate(RestartScreen);
             
-            ActivateButton(sender, RGBColors.color6);
         }
 
         private void MenuUser_Back()
@@ -405,6 +405,7 @@ namespace MarDeCortezDsk.Views
         private void BtnCamaron_Click(object sender, EventArgs e)
         {
             carrito.CamaronAdd();
+
         }
 
         private void BtnPescado_Click(object sender, EventArgs e)

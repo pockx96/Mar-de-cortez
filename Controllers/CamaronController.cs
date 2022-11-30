@@ -94,10 +94,10 @@ namespace MarDeCortezDsk.Controllers
             }
         }
 
-        public List<Camaron> GetbyFicha(string id)
+        public List<Camaron> GetbyFolio(string id)
         {
             List<Camaron> List = new List<Camaron>();
-            string query = "select * from camaron where FolioEntrada = '" + id + "' order by TipoProducto";
+            string query = "select * from camaron where IdFolio = '" + id + "' order by TipoProducto";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
