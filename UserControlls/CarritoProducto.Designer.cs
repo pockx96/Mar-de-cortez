@@ -35,14 +35,14 @@
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.BtnFichas = new FontAwesome.Sharp.IconButton();
             this.ListaEntrada = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ContainerFolio = new System.Windows.Forms.Panel();
             this.LblTileFicha = new System.Windows.Forms.Label();
             this.LblFolio = new System.Windows.Forms.Label();
             this.FormulariosContainer = new System.Windows.Forms.Panel();
             this.BtnEnviar = new MarDeCortezDsk.UserControlls.BotonRedondo();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.ListaEntrada)).BeginInit();
             this.ContainerFolio.SuspendLayout();
             this.SuspendLayout();
@@ -58,7 +58,7 @@
             this.iconButton1.IconColor = System.Drawing.Color.White;
             this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton1.IconSize = 38;
-            this.iconButton1.Location = new System.Drawing.Point(519, 445);
+            this.iconButton1.Location = new System.Drawing.Point(522, 445);
             this.iconButton1.Margin = new System.Windows.Forms.Padding(0);
             this.iconButton1.Name = "iconButton1";
             this.iconButton1.Size = new System.Drawing.Size(91, 40);
@@ -78,7 +78,7 @@
             this.BtnFichas.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnFichas.IconSize = 38;
             this.BtnFichas.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BtnFichas.Location = new System.Drawing.Point(620, 445);
+            this.BtnFichas.Location = new System.Drawing.Point(622, 445);
             this.BtnFichas.Margin = new System.Windows.Forms.Padding(0);
             this.BtnFichas.Name = "BtnFichas";
             this.BtnFichas.Size = new System.Drawing.Size(229, 40);
@@ -118,7 +118,7 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.ListaEntrada.DefaultCellStyle = dataGridViewCellStyle2;
             this.ListaEntrada.EnableHeadersVisualStyles = false;
-            this.ListaEntrada.Location = new System.Drawing.Point(546, 72);
+            this.ListaEntrada.Location = new System.Drawing.Point(536, 72);
             this.ListaEntrada.Name = "ListaEntrada";
             this.ListaEntrada.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -136,25 +136,8 @@
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(82)))), ((int)(((byte)(242)))));
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
             this.ListaEntrada.RowsDefaultCellStyle = dataGridViewCellStyle4;
-            this.ListaEntrada.Size = new System.Drawing.Size(305, 334);
+            this.ListaEntrada.Size = new System.Drawing.Size(315, 334);
             this.ListaEntrada.TabIndex = 30;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Tipo de Producto";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Presentación";
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 120;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Cantidad";
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 85;
             // 
             // ContainerFolio
             // 
@@ -225,6 +208,23 @@
             this.BtnEnviar.TextColor = System.Drawing.Color.White;
             this.BtnEnviar.UseVisualStyleBackColor = false;
             this.BtnEnviar.Click += new System.EventHandler(this.BtnEnviar_Click);
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Tipo de Producto";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Presentación";
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 130;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Cantidad";
+            this.Column3.Name = "Column3";
+            this.Column3.Width = 85;
             // 
             // CarritoProducto
             // 

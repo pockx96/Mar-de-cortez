@@ -85,7 +85,7 @@ namespace MarDeCortezDsk.Controllers
         {
 
             List<Catalogo_Presentaciones> List = new List<Catalogo_Presentaciones>();
-            string query = "select * from catalogopresentacion where IdPresentacion between 100 and 199 order by IdPresentacion";
+            string query = "select * from catalogopresentacion where IdPresentacion between 2100 and 2199 order by IdPresentacion";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -121,7 +121,7 @@ namespace MarDeCortezDsk.Controllers
         {
 
             List<Catalogo_Presentaciones> List = new List<Catalogo_Presentaciones>();
-            string query = "select * from catalogopresentacion where IdPresentacion between 200 and 299 order by IdPresentacion";
+            string query = "select * from catalogopresentacion where IdPresentacion between 2200 and 2299 order by IdPresentacion";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -158,7 +158,7 @@ namespace MarDeCortezDsk.Controllers
         {
 
             List<Catalogo_Presentaciones> List = new List<Catalogo_Presentaciones>();
-            string query = "select * from catalogopresentacion where IdPresentacion between 300 and 399 order by IdPresentacion";
+            string query = "select * from catalogopresentacion where IdPresentacion between 3100 and 3299 order by IdPresentacion";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {

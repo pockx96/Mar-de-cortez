@@ -135,56 +135,20 @@ namespace MarDeCortezDsk.UserControlls
             float kilos;
             switch (presentacion)
             {
-                case "2 Kg":
-                    kilos = cantidad * 2;
-                    return kilos;                  
-                case "5 Kg":
-                    kilos = cantidad * 5;
-                    return kilos;
-                case "10 Kg  ":
-                    kilos = cantidad * 10;
-                    return kilos;
 
-
-                case "100-500g":
-                    kilos = cantidad * .35f;
-                    return kilos;
-                case "500-800g":
-                    kilos = cantidad * .75f;
-                    return kilos;
-                case "800-1.2 Kgg":
-                    kilos = cantidad * .75f;
-                    return kilos;
-                case "1.2-1.5Kg":
-                    kilos = cantidad * .75f;
-                    return kilos;
-                case "3-4 Kg":
-                    kilos = cantidad * .75f;
-                    return kilos;
-                case "6 Kg":
-                    kilos = cantidad * 6;
-                    return kilos;
-                case "7 Kg":
-                    kilos = cantidad * 7;
-                    return kilos;
-                case "8 Kg":
-                    kilos = cantidad * 8;
-                    return kilos;
-                case "9 Kg":
-                    kilos = cantidad * 9;
-                    return kilos;
-
-
-                case "Kileado":
+                case "suelto":
                     kilos = cantidad;
                     return kilos;
-                case "Marqueta 2 Kg":
+                case "kilo":
+                    kilos = cantidad * 1;
+                    return kilos;
+                case "dos kilos":
                     kilos = cantidad * 2;
                     return kilos;
-                case "Marqueta 5 Kg":
+                case "cinco kilos":
                     kilos = cantidad * 5;
                     return kilos;
-                case "Marqueta 10 Kgg":
+                case "diez kilos":
                     kilos = cantidad * 10;
                     return kilos;
 

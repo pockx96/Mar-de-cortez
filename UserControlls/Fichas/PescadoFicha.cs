@@ -134,65 +134,66 @@ namespace MarDeCortezDsk.UserControlls
             float kilos;
             switch (presentacion)
             {
-                case "2 Kg":
+                case "kileado":
+                    kilos = cantidad;
+                    return kilos;
+                case "dos kilos":
                     kilos = cantidad * 2;
                     return kilos;
-                case "5 Kg":
+                case "cinco kilos":
                     kilos = cantidad * 5;
                     return kilos;
-                case "10 Kg  ":
+                case "diez kilos":
                     kilos = cantidad * 10;
+                    return kilos;
+                case "al vacio":
+                    kilos = cantidad;
+                    return kilos;
+                case "para disco":
+                    kilos = cantidad;
                     return kilos;
 
 
-                case "100-500g":
+
+                case "de 100 a 500 gramos":
                     kilos = cantidad * .35f;
                     return kilos;
-                case "500-800g":
+                case "de 800 a 1.2 kilos":
                     kilos = cantidad * .75f;
                     return kilos;
-                case "800-1.2 Kg":
+                case "de 1.2 a 1.5 kilos":
                     kilos = cantidad;
                     return kilos;
-                case "1.2-1.5Kg":
-                    kilos = cantidad * 1.3f;
-                    return kilos;
-                case "1.5-2 Kg":
+                case "de 1.5 a 2 kilos":
                     kilos = cantidad * 1.8f;
                     return kilos;
-                case "3-4 Kg":
+                case "de 3 a 4 kilos":
                     kilos = cantidad * 3.5f;
                     return kilos;
-                case "5 Kg ":
+                case "5 kilos":
                     kilos = cantidad * 5;
                     return kilos;
-                case "6 Kg":
+                case "6 kilos":
                     kilos = cantidad * 6;
                     return kilos;
-                case "7 Kg":
+                case "7 kilos":
                     kilos = cantidad * 7;
                     return kilos;
-                case "8 Kg":
+                case "8 kilos":
                     kilos = cantidad * 8;
                     return kilos;
-                case "9 Kg":
+                case "9 kilos":
                     kilos = cantidad * 9;
                     return kilos;
-
-
-                case "Kileado":
-                    kilos = cantidad;
-                    return kilos;
-                case "Marqueta 2 Kg":
-                    kilos = cantidad * 2;
-                    return kilos;
-                case "Marqueta 5 Kg":
-                    kilos = cantidad * 5;
-                    return kilos;
-                case "Marqueta 10 Kgg":
+                case "10 kilos":
                     kilos = cantidad * 10;
                     return kilos;
-                
+                case "11 kilos":
+                    kilos = cantidad * 11;
+                    return kilos;
+
+
+
             }
             return null;
         }

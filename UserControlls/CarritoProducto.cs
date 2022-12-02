@@ -33,7 +33,7 @@ namespace MarDeCortezDsk.UserControlls
         public string Proveedor { get; set; }
         public string Fecha { get; set; }
         public string Usuario { get; set; }
-        public string Folio { get; set; }
+        public Folios Folio { get; set; }
         private string formularioActual { get; set; }
 
         public PescadoFicha PescadoFicha = new PescadoFicha();
@@ -50,12 +50,32 @@ namespace MarDeCortezDsk.UserControlls
         public delegate void RestartDelegate();
         public event RestartDelegate Restart;
 
+        public delegate void PostDelegate();
+        public event PostDelegate Post;
+
         private void CarritoProducto_Load(object sender, EventArgs e)
         {
             CamaronAdd();
             FoliosController foliosController = new FoliosController();
-            this.Folio = foliosController.NewId();
-            LblFolio.Text = Folio;
+            Folios NewFolio = new Folios()
+            {
+                IdFolio = foliosController.NewId(),
+                id_usuario = Usuario,
+                fecha_entrada = Fecha,
+                id_proveedor = Proveedor,
+                Estado = "Pendiente"
+            };
+            this.Folio = NewFolio;
+            LblFolio.Text = Folio.IdFolio;
+
+            if (Proveedor == "Tienda")
+            {
+                this.Post += new PostDelegate(UpdateInventario);
+            }
+            else
+            {
+                this.Post += new PostDelegate(PostProveedores);
+            }
         }
 
         public void CamaronAdd()
@@ -84,17 +104,17 @@ namespace MarDeCortezDsk.UserControlls
             switch (formularioActual)
             {
                 case "Camaron":
-                    Camaron camaron = formCamaron.GetRow(Folio, Proveedor);
+                    Camaron camaron = formCamaron.GetRow(Folio.id_usuario, Proveedor);
                     ListCamaron.Add(camaron);
                     ListaEntrada.Rows.Insert(index, camaron.Tipo_producto, camaron.Presentacion, camaron.Cantidad);
                     break;
                 case "Pescado":
-                    Pescado pescado = formPescado.GetProducto(Folio, Proveedor);
+                    Pescado pescado = formPescado.GetProducto(Folio.IdFolio, Proveedor);
                     ListPescado.Add(pescado);
                     ListaEntrada.Rows.Insert(index, pescado.Tipo_producto, pescado.Presentacion, pescado.Cantidad);
                     break;
                 case "Otros":
-                    Pescado otros = formOtro.GetProducto(Folio, Proveedor);
+                    Pescado otros = formOtro.GetProducto(Folio.IdFolio, Proveedor);
                     ListPescado.Add(otros);
                     ListaEntrada.Rows.Insert(index, otros.Tipo_producto, otros.Presentacion, otros.Cantidad);
                     break;
@@ -105,27 +125,109 @@ namespace MarDeCortezDsk.UserControlls
         }
         private void BtnFichas_Click(object sender, EventArgs e)
         {
+            Post();
+
+        }
+
+
+        private void Clear()
+        {
+            ListaEntrada.Rows.Clear();
+            formCamaron.Clear();
+            formPescado.Clear();
+            formOtro.Clear();
+        }
+
+
+        private void PostProveedores()
+        {
             PescadoController pescadoController = new PescadoController();
-            List<Pescado> ListMixta = pescadoController.MixList(ListCamaron,ListPescado);
-            if (ListaEntrada.RowCount>0)
+            CamaronController camaronController = new CamaronController();
+            FoliosController foliosController = new FoliosController();
+
+
+            if (ListaEntrada.RowCount > 0)
             {
-                Folios ficha = new Folios();
-                ficha.id_proveedor = Proveedor;
-                ficha.id_usuario = Usuario;
-                ficha.fecha_entrada = Fecha;
+                var result = RJMessageBox.Show("¿Desea confirmar esta entrada?", "Advertencia", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+                if (result == DialogResult.OK)
+                {
+                    foreach (Camaron camaron in ListCamaron)
+                    {
+                        camaronController.Post(camaron);
+                    }
 
-                FichaConfirmacion confirmacion = new FichaConfirmacion(ListCamaron, ListPescado, ListMixta, ficha, Usuario);
-                confirmacion.Usuarios = Usuario;
-                confirmacion.Reload += new FichaConfirmacion.ReloadDelegate(Restart);
-                confirmacion.ShowDialog();
-
+                    foreach (Pescado pescado in ListPescado)
+                    {
+                        pescadoController.Post(pescado);
+                    }
+                    foliosController.Post(Folio);
+                    DialogResult resul = RJMessageBox.Show("Productos agregados con exito!.",
+                     "Aviso!");
+                    Clear();
+                    Restart();
+                }
             }
             else
             {
                 DialogResult result = RJMessageBox.Show("Agrege productos al carrito.",
                "Aviso!");
             }
+        }
+        private void UpdateInventario()
+        {
+            PescadoController pescadoController = new PescadoController();
+            CamaronController camaronController = new CamaronController();
+            FoliosController foliosController = new FoliosController();
 
+
+            if (ListaEntrada.RowCount > 0)
+            {
+                var result = RJMessageBox.Show("¿Desea confirmar esta entrada?", "Advertencia", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+                if (result == DialogResult.OK)
+                {
+                    foreach (Camaron camaron in ListCamaron)
+                    {
+                        List<Camaron> ListTienda = camaronController.GetByProveedor("Tienda");
+                        foreach (Camaron camaronTienda in ListTienda)
+                        {
+                            if (camaronTienda.Presentacion == camaron.Presentacion)
+                            {
+                                camaronController.Update(camaron);
+                            }
+                            else
+                            {
+                                camaronController.Post(camaron);
+                            }
+                        }
+                    }
+
+                    foreach (Pescado pescado in ListPescado)
+                    {
+                        List<Pescado> ListTienda = pescadoController.GetByProveedor("Tienda");
+                        foreach (Pescado pescadoTienda in ListTienda)
+                        {
+                            if (pescadoTienda.Presentacion == pescado.Presentacion)
+                            {
+                                pescadoController.Update(pescado);
+                            }
+                            else
+                            {
+                                pescadoController.Post(pescado);
+                            }
+                        }
+                    }
+                    foliosController.Post(Folio);
+                    DialogResult resul = RJMessageBox.Show("Productos agregados con exito!.",
+                     "Aviso!");
+                    Clear();
+                    Restart();
+                }
+            }
+            else
+            {
+                DialogResult result = RJMessageBox.Show("Agrege productos al carrito.",
+               "Aviso!");
+            }
         }
     }
 
