@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MarDeCortezDsk
 {
-    internal class siJalanLosPuchVato
+    internal class cambiosEnLab
     {
     }
 }
