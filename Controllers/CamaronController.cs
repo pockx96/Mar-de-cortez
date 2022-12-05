@@ -93,6 +93,46 @@ namespace MarDeCortezDsk.Controllers
 
             }
         }
+        public Camaron Get(Camaron camaronStock)
+        {
+            Camaron camaron = new Camaron();
+            string query = $"select * from camaron where Almacenaje = 'Tienda' and TipoProducto = '{camaronStock.Tipo_producto}' and Presentacion = '{camaronStock.Presentacion}'";
+
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                MySqlCommand command = new MySqlCommand(query, connection);
+
+                try
+                {
+                    connection.Open();
+                    MySqlDataReader reader = command.ExecuteReader();
+
+                    while (reader.Read())
+                    {
+
+                        camaron.IdProducto = reader.GetString(0);
+                        camaron.FolioEntrada = reader.GetString(1);
+                        camaron.Tipo_producto = reader.GetString(2);
+                        camaron.Kilos = reader.GetFloat(3);
+                        camaron.Medida = reader.GetString(4);
+                        camaron.Almacenaje = reader.GetString(5);
+                        camaron.Presentacion = reader.GetString(6);
+                        camaron.Cantidad = reader.GetInt32(7);
+
+                    }
+                    reader.Close();
+                    connection.Close();
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception("error de la base de datos : " + ex);
+
+                }
+
+                return camaron;
+
+            }
+        }
 
         public List<Camaron> GetbyFolio(string id)
         {
@@ -238,27 +278,30 @@ namespace MarDeCortezDsk.Controllers
 
         }
 
-        public void Update(Camaron camaron)
+        public void Update(Camaron camaron , bool SumaResta)
         {
-            string id = camaron.IdProducto;
-            string tipoProducto = camaron.Tipo_producto;
-            string presentacion = camaron.Presentacion;
-            string medida = camaron.Medida;
-            float? Kilos = camaron.Kilos;
-            int stock = camaron.Cantidad;
-            string query = "update camaron set TipoProducto = @tipoProducto, Medida = @medida,Presentacion = @presentacion,Kilos = @Kilos,Cantidad= @stock where IdProducto = @id";
+            Camaron CamaronStock = Get(camaron);
+            float? Kilos;
+            int cantidad;
+            if (SumaResta)
+            {
+                Kilos = camaron.Kilos + CamaronStock.Kilos;
+                cantidad = camaron.Cantidad + CamaronStock.Cantidad;
+            }
+            else
+            {
+                Kilos = CamaronStock.Kilos - camaron.Kilos;
+                cantidad =  CamaronStock.Cantidad - camaron.Cantidad;
+            }
+            
+
+            string query = $"update camaron set Kilos = {Kilos}, Cantidad = {cantidad} where Almacenaje = 'Tienda' and Presentacion = '{camaron.Presentacion}' and Medida = '{camaron.Medida}'";
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 MySqlCommand command = new MySqlCommand(query, connection);
                 try
                 {
                     connection.Open();
-                    command.Parameters.AddWithValue("@id", id);
-                    command.Parameters.AddWithValue("@stock", stock);
-                    command.Parameters.AddWithValue("@Kilos", Kilos);
-                    command.Parameters.AddWithValue("@presentacion", presentacion);
-                    command.Parameters.AddWithValue("@medida", medida);
-                    command.Parameters.AddWithValue("@tipoProducto", tipoProducto);
                     command.ExecuteNonQuery();
                     connection.Close();
                 }
@@ -269,6 +312,7 @@ namespace MarDeCortezDsk.Controllers
             }
 
         }
+  
         public void Delete(string ficha)
         {
 
@@ -293,5 +337,26 @@ namespace MarDeCortezDsk.Controllers
             }
         }
 
+        public float? KilosCalculation(int cantidad, string presentacion)
+        {
+            float kilos;
+            switch (presentacion)
+            {
+                case "Maqueta 2KG":
+                    kilos = cantidad * 2;
+                    return kilos;
+                case "Maqueta 5KG":
+                    kilos = cantidad * 5;
+                    return kilos;
+                case "Al Vacio":
+                    kilos = cantidad;
+                    return kilos;
+                case "Kileado":
+                    kilos = cantidad;
+                    return kilos;
+
+            }
+            return null;
+        }
     }
 }

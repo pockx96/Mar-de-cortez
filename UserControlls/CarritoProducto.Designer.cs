@@ -35,14 +35,14 @@
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.BtnFichas = new FontAwesome.Sharp.IconButton();
             this.ListaEntrada = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ContainerFolio = new System.Windows.Forms.Panel();
             this.LblTileFicha = new System.Windows.Forms.Label();
             this.LblFolio = new System.Windows.Forms.Label();
             this.FormulariosContainer = new System.Windows.Forms.Panel();
             this.BtnEnviar = new MarDeCortezDsk.UserControlls.BotonRedondo();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.ListaEntrada)).BeginInit();
             this.ContainerFolio.SuspendLayout();
             this.SuspendLayout();
@@ -139,6 +139,23 @@
             this.ListaEntrada.Size = new System.Drawing.Size(315, 334);
             this.ListaEntrada.TabIndex = 30;
             // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Tipo de Producto";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Presentación";
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 130;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Cantidad";
+            this.Column3.Name = "Column3";
+            this.Column3.Width = 85;
+            // 
             // ContainerFolio
             // 
             this.ContainerFolio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -208,23 +225,6 @@
             this.BtnEnviar.TextColor = System.Drawing.Color.White;
             this.BtnEnviar.UseVisualStyleBackColor = false;
             this.BtnEnviar.Click += new System.EventHandler(this.BtnEnviar_Click);
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Tipo de Producto";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Presentación";
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 130;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Cantidad";
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 85;
             // 
             // CarritoProducto
             // 

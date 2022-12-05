@@ -92,6 +92,45 @@ namespace MarDeCortezDsk.Controllers
 
             }
         }
+        public Pescado Get(Pescado pescadoStock)
+        {
+            Pescado pescado = new Pescado();
+            string query = $"select * from pescado where  Almacenaje = 'Tienda' and TipoProducto = '{pescadoStock.Tipo_producto}' and Presentacion = '{pescadoStock.Presentacion}'";
+
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                MySqlCommand command = new MySqlCommand(query, connection);
+
+                try
+                {
+                    connection.Open();
+                    MySqlDataReader reader = command.ExecuteReader();
+
+                    while (reader.Read())
+                    {
+
+                        pescado.IdProducto = reader.GetString(0);
+                        pescado.FolioEntrada = reader.GetString(1);
+                        pescado.Tipo_producto = reader.GetString(2);
+                        pescado.Almacenaje = reader.GetString(3);
+                        pescado.Presentacion = reader.GetString(4);
+                        pescado.Kilos = reader.GetFloat(5);
+                        pescado.Cantidad = reader.GetInt32(6);
+
+                    }
+                    reader.Close();
+                    connection.Close();
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception("error de la base de datos : " + ex);
+
+                }
+
+                return pescado;
+
+            }
+        }
 
         public List<Pescado> GetByFolio(string id)
         {
@@ -238,27 +277,30 @@ namespace MarDeCortezDsk.Controllers
             }
         }
 
-        public void Update(Pescado pescado)
+        public void Update(Pescado pescado, bool SumaResta)
         {
-            string id = pescado.IdProducto;
-            string tipoProducto = pescado.Tipo_producto;
-            string presentacion = pescado.Presentacion;
-            float? kilos = pescado.Kilos;
-            int stock = pescado.Cantidad;
-            string almacenaje = pescado.Almacenaje;
-            string query = "update pescado set TipoProducto = @tipoProducto, Presentacion = @presentacion,Kilos = @kilos,Cantidad= @stock , Almacenaje = @almacenaje where IdProducto = @id";
+            Pescado PescadoStock = Get(pescado);
+            float? Kilos;
+            int cantidad;
+            if (SumaResta)
+            {
+                Kilos = pescado.Kilos + PescadoStock.Kilos;
+                cantidad = pescado.Cantidad + PescadoStock.Cantidad;
+            }
+            else
+            {
+                Kilos = PescadoStock.Kilos - pescado.Kilos;
+                cantidad = PescadoStock.Cantidad - pescado.Cantidad;
+            }
+
+
+            string query = $"update camaron set Kilos = {Kilos}, Cantidad = {cantidad} where Almacenaje = 'Tienda' and TipoProducto = '{pescado.Tipo_producto}' and Presentacion = '{pescado.Presentacion}'";
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 MySqlCommand command = new MySqlCommand(query, connection);
                 try
                 {
                     connection.Open();
-                    command.Parameters.AddWithValue("@id", id);
-                    command.Parameters.AddWithValue("@stock", stock);
-                    command.Parameters.AddWithValue("@kilos", kilos);
-                    command.Parameters.AddWithValue("@presentacion", presentacion);
-                    command.Parameters.AddWithValue("@tipoProducto", tipoProducto);
-                    command.Parameters.AddWithValue("@almacenaje", almacenaje);
                     command.ExecuteNonQuery();
                     connection.Close();
                 }
@@ -269,6 +311,7 @@ namespace MarDeCortezDsk.Controllers
             }
 
         }
+
 
         public string NewId()
         {

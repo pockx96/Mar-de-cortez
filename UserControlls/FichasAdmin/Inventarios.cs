@@ -60,8 +60,22 @@ namespace MarDeCortezDsk.UserControlls.FichasAdmin
 
         private void BtnEliminar_Click(object sender, EventArgs e)
         {
-            string id = DatagridInventario.CurrentRow.Cells[0].Value.ToString();
-            DatagridInventario.Rows.Remove(DatagridInventario.CurrentRow);
+            string idProducto = DatagridInventario.CurrentRow.Cells[0].Value.ToString();
+            char id = idProducto[0];
+            InventarioRestas inventarioRestas;
+
+            if (id == 'C')
+            {
+                CamaronController camaronController = new CamaronController();
+                Camaron camaron = camaronController.Get(idProducto);
+                inventarioRestas = new InventarioRestas(camaron);
+            }
+            else if (id == 'P')
+            {
+                PescadoController pescadoController = new PescadoController();
+                Pescado pescado = pescadoController.Get(idProducto);
+                inventarioRestas = new InventarioRestas(pescado);
+            }
 
 
         }
@@ -178,10 +192,12 @@ namespace MarDeCortezDsk.UserControlls.FichasAdmin
 
         private void DatagridInventario_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+
             Animations animations = new Animations();
-            Point LocationEliminar = animations.BtnlocationDatagrid(DatagridInventario, 326, Cursor.Position.Y, new Point(463, 96), 15);
+            Point LocationEliminar = animations.BtnlocationDatagrid(DatagridInventario, 277, Cursor.Position.Y, new Point(463, 96), 12);
             DatagridInventario.CurrentRow.Selected = true;
             BtnEliminar.Location = LocationEliminar;
+            
         }
 
         private void BtnFichas_Click_1(object sender, EventArgs e)

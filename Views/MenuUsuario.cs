@@ -126,21 +126,7 @@ namespace MarDeCortezDsk.Views
         private void BtnEditProducto_Click(object sender, EventArgs e)
         {
             
-            string id = DatagridProductos.CurrentRow.Cells[0].Value.ToString();
-            if (id[0] == 'C')
-            {
-                Camaron camaron = camaronController.Get(id);
-                Actulizacion_de_productos form = new Actulizacion_de_productos(camaron);
-                form.Reload += new Actulizacion_de_productos.ReloadDelegate(ProductosReLoad);
-                form.Show();
-            }
-            else
-            {
-                Pescado pescado = pescadoController.Get(id);
-                Actulizacion_de_productos form = new Actulizacion_de_productos(pescado);
-                form.Reload += new Actulizacion_de_productos.ReloadDelegate(ProductosReLoad);
-                form.Show();
-            }
+
         }
 
         public void ProductosReLoad()

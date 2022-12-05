@@ -130,7 +130,6 @@
     <Compile Include="Controllers\UsuarioController.cs" />
     <Compile Include="Models\Inventario.cs" />
     <Compile Include="Models\IProducto.cs" />
-    <Compile Include="siJalanLosPuchVato.cs" />
     <Compile Include="Styles\Animations.cs" />
     <Compile Include="UserControlls\BarraUsuario.cs">
       <SubType>UserControl</SubType>
@@ -223,6 +222,18 @@
       <DependentUpon>UserConfig.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControlls\Fichas\Ifichas.cs" />
+    <Compile Include="UserControlls\InventarioRestas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlls\InventarioRestas.Designer.cs">
+      <DependentUpon>InventarioRestas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlls\InventarioShowDialog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlls\InventarioShowDialog.Designer.cs">
+      <DependentUpon>InventarioShowDialog.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControlls\labelCrear.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -291,12 +302,6 @@
     </Compile>
     <Compile Include="UserControlls\Relog.designer.cs">
       <DependentUpon>Relog.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Actulizacion de productos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\Actulizacion de productos.Designer.cs">
-      <DependentUpon>Actulizacion de productos.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\FichaConfirmacion.cs">
       <SubType>Form</SubType>
@@ -479,6 +484,12 @@
     <EmbeddedResource Include="UserControlls\FichasAdmin\ListaFolios.resx">
       <DependentUpon>ListaFolios.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControlls\InventarioRestas.resx">
+      <DependentUpon>InventarioRestas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlls\InventarioShowDialog.resx">
+      <DependentUpon>InventarioShowDialog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControlls\labelCrear.resx">
       <DependentUpon>labelCrear.cs</DependentUpon>
     </EmbeddedResource>
@@ -490,9 +501,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserControlls\Relog.resx">
       <DependentUpon>Relog.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\Actulizacion de productos.resx">
-      <DependentUpon>Actulizacion de productos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\FichaConfirmacion.resx">
       <DependentUpon>FichaConfirmacion.cs</DependentUpon>

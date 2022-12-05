@@ -188,27 +188,36 @@ namespace MarDeCortezDsk.UserControlls
                     foreach (Camaron camaron in ListCamaron)
                     {
                         List<Camaron> ListTienda = camaronController.GetByProveedor("Tienda");
+                        if (ListTienda.Count == 0)
+                        {
+                            camaronController.Post(camaron);
+                        }
                         foreach (Camaron camaronTienda in ListTienda)
                         {
-                            if (camaronTienda.Presentacion == camaron.Presentacion)
+                            if (camaronTienda.Presentacion == camaron.Presentacion && camaronTienda.Tipo_producto == camaron.Tipo_producto)
                             {
-                                camaronController.Update(camaron);
+                                camaronController.Update(camaron,true);
                             }
                             else
                             {
                                 camaronController.Post(camaron);
                             }
                         }
+
                     }
 
                     foreach (Pescado pescado in ListPescado)
                     {
                         List<Pescado> ListTienda = pescadoController.GetByProveedor("Tienda");
+                        if (ListTienda.Count == 0)
+                        {
+                            pescadoController.Post(pescado);
+                        }
                         foreach (Pescado pescadoTienda in ListTienda)
                         {
-                            if (pescadoTienda.Presentacion == pescado.Presentacion)
+                            if (pescadoTienda.Presentacion == pescado.Presentacion && pescadoTienda.Tipo_producto == pescado.Tipo_producto)
                             {
-                                pescadoController.Update(pescado);
+                                pescadoController.Update(pescado,true);
                             }
                             else
                             {

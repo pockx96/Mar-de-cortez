@@ -764,7 +764,6 @@ C:\Users\kriz_\Documents\MDC\Mar-de-cortez\obj\Debug\MarDeCortezDsk.UserControll
 C:\Users\kriz_\Documents\MDC\Mar-de-cortez\obj\Debug\MarDeCortezDsk.UserControlls.ProveedorShowDialog.resources
 C:\Users\kriz_\Documents\MDC\Mar-de-cortez\obj\Debug\MarDeCortezDsk.UserControlls.PruebaDelegados.resources
 C:\Users\kriz_\Documents\MDC\Mar-de-cortez\obj\Debug\MarDeCortezDsk.UserControlls.Relog.resources
-C:\Users\kriz_\Documents\MDC\Mar-de-cortez\obj\Debug\MarDeCortezDsk.Views.Actulizacion_de_productos.resources
 C:\Users\kriz_\Documents\MDC\Mar-de-cortez\obj\Debug\MarDeCortezDsk.Views.FichaConfirmacion.resources
 C:\Users\kriz_\Documents\MDC\Mar-de-cortez\obj\Debug\CustomMessageBox.Private.FormMessageBox.resources
 C:\Users\kriz_\Documents\MDC\Mar-de-cortez\obj\Debug\MarDeCortezDsk.Login.resources
@@ -789,3 +788,5 @@ C:\Users\kriz_\Documents\MDC\Mar-de-cortez\obj\Debug\MarDeCortezDsk.application
 C:\Users\kriz_\Documents\MDC\Mar-de-cortez\obj\Debug\MarDeCortezDsk.csproj.CopyComplete
 C:\Users\kriz_\Documents\MDC\Mar-de-cortez\obj\Debug\MarDeCortezDsk.exe
 C:\Users\kriz_\Documents\MDC\Mar-de-cortez\obj\Debug\MarDeCortezDsk.pdb
+C:\Users\kriz_\Documents\MDC\Mar-de-cortez\obj\Debug\MarDeCortezDsk.UserControlls.InventarioRestas.resources
+C:\Users\kriz_\Documents\MDC\Mar-de-cortez\obj\Debug\MarDeCortezDsk.UserControlls.InventarioShowDialog.resources
